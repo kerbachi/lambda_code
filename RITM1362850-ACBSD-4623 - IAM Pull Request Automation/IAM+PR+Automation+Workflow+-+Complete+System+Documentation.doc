@@ -1,0 +1,3608 @@
+Date: Tue, 3 Mar 2026 21:16:44 +0000 (GMT)
+Message-ID: <908452069.334200.1772572604206@confluence-wst-868c85475d-h99b6>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_334199_797365687.1772572604206"
+
+------=_Part_334199_797365687.1772572604206
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>IAM PR Automation Workflow - Complete System Documentation</titl=
+e>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>IAM PR Automation Workflow - Complete System Documentation</h1>
+    <div class=3D"Section1">
+        <p><br></p>
+<h2 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-TableofContent=
+s">Table of Contents</h2>
+<h2 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-/*<![CDATA[*/d=
+iv.rbtoc1772572604138{padding:0px;}div.rbtoc1772572604138ul{margin-left:0px=
+;}div.rbtoc1772572604138li{margin-left:0px;padding-left:0px;}/*]]>*/Tableof=
+Contents#IAMPRAutomationWorkflowComplete"><style type=3D"text/css">/*<![CDA=
+TA[*/
+div.rbtoc1772572604138 {padding: 0px;}
+div.rbtoc1772572604138 ul {margin-left: 0px;}
+div.rbtoc1772572604138 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1772572604138">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-TableofC=
+ontents">Table of Contents</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-"></a></=
+li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Overview=
+">Overview</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-KeyCapab=
+ilities">Key Capabilities</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-DataFlow=
+Diagrams">Data Flow Diagrams</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-ThreePar=
+allelWorkflowPaths">Three Parallel Workflow Paths</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Workflow=
+ComparisonMatrix">Workflow Comparison Matrix</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Monitore=
+dRepositories">Monitored Repositories</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-SystemAr=
+chitecture">System Architecture</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-High-Lev=
+elArchitecture">High-Level Architecture</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Componen=
+tOverview">Component Overview</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Workflow=
+Types">Workflow Types</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-1.Produc=
+tionPRWorkflow">1. Production PR Workflow</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-2.TestPR=
+Workflow">2. Test PR Workflow</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-3.Regres=
+sionTestingWorkflow">3. Regression Testing Workflow</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Infrastr=
+uctureComponents">Infrastructure Components</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-DynamoDB=
+Tables">DynamoDB Tables</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Producti=
+onTable:github-open-prs-{env}">Production Table: github-open-prs-{env}</a><=
+/li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Regressi=
+onTable:github-prs-regression-test-{env}">Regression Table: github-prs-regr=
+ession-test-{env}</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-LambdaFu=
+nctions">Lambda Functions</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-1.PRPoll=
+erLambda">1. PR Poller Lambda</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-2.StepFu=
+nctionTriggerLambda">2. Step Function Trigger Lambda</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-3.Securi=
+tyScanLambdaDummy">3. Security Scan Lambda Dummy</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-4.Compli=
+anceCheckLambdaDummy">4. Compliance Check Lambda Dummy</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-5.IAMBou=
+ndaryCheckerLambda">5. IAM Boundary Checker Lambda</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-6.ADGrou=
+pEnvironmentCheckerLambda">6. AD Group Environment Checker Lambda</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-7.FinalS=
+tatusCheckerLambda">7. Final Status Checker Lambda</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-8.TeamsN=
+otifierLambda">8. Teams Notifier Lambda</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-9.Histor=
+icalPRFetcherLambda">9. Historical PR Fetcher Lambda</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-10.Regre=
+ssionSummaryLambda">10. Regression Summary Lambda</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-StepFunc=
+tions">Step Functions</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Producti=
+on/TestStepFunction">Production/Test Step Function</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Regressi=
+onStepFunction">Regression Step Function</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-S3Bucket=
+s">S3 Buckets</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Historic=
+alPRCacheBucket">Historical PR Cache Bucket</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-EventBri=
+dgeRules">EventBridge Rules</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-PRPollin=
+gSchedule">PR Polling Schedule</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-CloudWat=
+chLogGroups">CloudWatch Log Groups</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Producti=
+onWorkflow">Production Workflow</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Overview=
+.1">Overview</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Producti=
+onWorkflowDiagram">Production Workflow Diagram</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Producti=
+onWorkflowSteps">Production Workflow Steps</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Step1:PR=
+Creation(T+0)">Step 1: PR Creation (T+0)</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Step2:PR=
+Detection(T+0toT+180seconds)">Step 2: PR Detection (T+0 to T+180 seconds)</=
+a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Step3:Wo=
+rkflowTrigger(T+2-3seconds)">Step 3: Workflow Trigger (T+2-3 seconds)</a></=
+li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Step4:Se=
+tExecutionRunning(T+3seconds)">Step 4: Set Execution Running (T+3 seconds)<=
+/a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Step5:Pa=
+rallelValidation(T+4toT+8seconds)">Step 5: Parallel Validation (T+4 to T+8 =
+seconds)</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Step6:Fi=
+nalStatusDetermination(T+9seconds)">Step 6: Final Status Determination (T+9=
+ seconds)</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Step7:Wo=
+rkflowComplete(T+10seconds)">Step 7: Workflow Complete (T+10 seconds)</a></=
+li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Step8:Te=
+amsNotification(T+11seconds)">Step 8: Teams Notification (T+11 seconds)</a>=
+</li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Producti=
+onWorkflowSummary">Production Workflow Summary</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-TestWork=
+flow">Test Workflow</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Overview=
+.2">Overview</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-KeyDiffe=
+rencesfromProduction">Key Differences from Production</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-TestWork=
+flowSteps">Test Workflow Steps</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Regressi=
+onTestingWorkflow">Regression Testing Workflow</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Overview=
+.3">Overview</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Regressi=
+onTestingWorkflowDiagram">Regression Testing Workflow Diagram</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Regressi=
+onTestingWorkflowSteps">Regression Testing Workflow Steps</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Step1:Te=
+stInitiation(T+0)">Step 1: Test Initiation (T+0)</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Step2:Re=
+gressionTestTrigger(T+1second)">Step 2: Regression Test Trigger (T+1 second=
+)</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Step3:Wo=
+rkflowTrigger(T+2seconds)">Step 3: Workflow Trigger (T+2 seconds)</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Steps4-7=
+:ValidationExecution">Steps 4-7: Validation Execution</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Step8:Re=
+sultsComparisonandAggregation">Step 8: Results Comparison and Aggregation</=
+a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Step9:Te=
+amsNotification">Step 9: Teams Notification</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Regressi=
+onTestingSummary">Regression Testing Summary</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Monitori=
+ngandNotifications">Monitoring and Notifications</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-MSTeamsC=
+hannels">MS Teams Channels</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-1.IAM-PR=
+-Automation(Production)">1. IAM-PR-Automation (Production)</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-2.IAM-PR=
+-Automation-Test(Test)">2. IAM-PR-Automation-Test (Test)</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-3.IAM-PR=
+-Automation-Regression(Regression)">3. IAM-PR-Automation-Regression (Regres=
+sion)</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-CloudWat=
+chMonitoring">CloudWatch Monitoring</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-KeyMetri=
+cstoMonitor">Key Metrics to Monitor</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-LoggingB=
+estPractices">Logging Best Practices</a></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Troubles=
+hooting">Troubleshooting</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-CommonIs=
+sues">Common Issues</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Issue1:P=
+RNotDetected">Issue 1: PR Not Detected</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Issue2:W=
+orkflowNotStarting">Issue 2: Workflow Not Starting</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Issue3:V=
+alidationChecksFailing">Issue 3: Validation Checks Failing</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Issue4:T=
+eamsNotificationsNotSent">Issue 4: Teams Notifications Not Sent</a></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-Issue5:R=
+egressionTestsNotRunning">Issue 5: Regression Tests Not Running</a></li>
+</ul></li>
+</ul></li>
+<li><a href=3D"#IAMPRAutomationWorkflowCompleteSystemDocumentation-RelatedD=
+ocumentation">Related Documentation</a></li>
+</ul>
+</div></h2>
+<p><br></p>
+<hr>
+<h2 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Overview">Over=
+view</h2>
+<p>The IAM PR Automation system is a Terraform-managed AWS solution that au=
+tomatically validates IAM policy changes in GitHub Enterprise pull requests=
+. The system operates in three distinct workflow paths:</p>
+<ol>
+<li><strong>Production Workflow</strong>: Real-time validation of open PRs =
+from production IAM repositories (10 IDC repos)</li>
+<li><strong>Test Workflow</strong>: Real-time validation of open PRs from t=
+he test/POC repository for system testing</li>
+<li><strong>Regression Testing Workflow</strong>: Historical PR validation =
+for measuring automation accuracy</li>
+</ol>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-KeyCapabilitie=
+s">Key Capabilities</h3>
+<ul>
+<li><strong>Automated PR Discovery</strong>: Polls GitHub Enterprise every =
+3 minutes for open PRs</li>
+<li><strong>Parallel Validation</strong>: Runs security, compliance, and IA=
+M boundary checks simultaneously</li>
+<li><strong>Real-time Notifications</strong>: Sends results to MS Teams cha=
+nnels</li>
+<li><strong>Regression Testing</strong>: Validates automation accuracy agai=
+nst historical human decisions</li>
+<li><strong>Comprehensive Logging</strong>: Full audit trail in CloudWatch =
+and DynamoDB</li>
+</ul>
+<hr>
+<h2 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-DataFlowDiagra=
+ms">Data Flow Diagrams</h2>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-ThreeParallelW=
+orkflowPaths">Three Parallel Workflow Paths</h3>
+<pre><code>=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82                    THREE WORKFLOW PATHS                          =
+   =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+
+PATH 1: PRODUCTION PR WORKFLOW
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90    =
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90    =
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  IDC Repos   =E2=94=82=E2=94=80=E2=94=80=E2=94=80=E2=96=B6=E2=94=
+=82  PR Poller   =E2=94=82=E2=94=80=E2=94=80=E2=94=80=E2=96=B6=E2=94=82  Dy=
+namoDB    =E2=94=82
+=E2=94=82  (10 repos)  =E2=94=82    =E2=94=82   Lambda     =E2=94=82    =E2=
+=94=82  Production  =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98    =
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98    =
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+                                               =E2=94=82
+                                               =E2=86=93
+                                        =E2=94=8C=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+                                        =E2=94=82 Step Function=E2=94=82
+                                        =E2=94=82  Production  =E2=94=82
+                                        =E2=94=94=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+                                               =E2=94=82
+                                               =E2=86=93
+                                        =E2=94=8C=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+                                        =E2=94=82    Teams     =E2=94=82
+                                        =E2=94=82 IAM-PR-Auto  =E2=94=82
+                                        =E2=94=94=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+
+PATH 2: TEST PR WORKFLOW
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90    =
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90    =
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  POC Repo    =E2=94=82=E2=94=80=E2=94=80=E2=94=80=E2=96=B6=E2=94=
+=82  PR Poller   =E2=94=82=E2=94=80=E2=94=80=E2=94=80=E2=96=B6=E2=94=82  Dy=
+namoDB    =E2=94=82
+=E2=94=82 (test repo)  =E2=94=82    =E2=94=82   Lambda     =E2=94=82    =E2=
+=94=82  Production  =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98    =
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98    =
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+                                               =E2=94=82
+                                               =E2=86=93
+                                        =E2=94=8C=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+                                        =E2=94=82 Step Function=E2=94=82
+                                        =E2=94=82  Production  =E2=94=82
+                                        =E2=94=94=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+                                               =E2=94=82
+                                               =E2=86=93
+                                        =E2=94=8C=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+                                        =E2=94=82    Teams     =E2=94=82
+                                        =E2=94=82 IAM-PR-Test  =E2=94=82
+                                        =E2=94=94=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+
+PATH 3: REGRESSION TESTING WORKFLOW
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90    =
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90    =
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  Historical  =E2=94=82=E2=94=80=E2=94=80=E2=94=80=E2=96=B6=E2=94=
+=82  Historical  =E2=94=82=E2=94=80=E2=94=80=E2=94=80=E2=96=B6=E2=94=82  Dy=
+namoDB    =E2=94=82
+=E2=94=82  PRs (S3)    =E2=94=82    =E2=94=82  PR Fetcher  =E2=94=82    =E2=
+=94=82  Regression  =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98    =
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98    =
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+                                               =E2=94=82
+                                               =E2=86=93
+                                        =E2=94=8C=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+                                        =E2=94=82 Step Function=E2=94=82
+                                        =E2=94=82  Regression  =E2=94=82
+                                        =E2=94=94=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+                                               =E2=94=82
+                                               =E2=86=93
+                                        =E2=94=8C=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+                                        =E2=94=82    Teams     =E2=94=82
+                                        =E2=94=82 IAM-PR-Regr  =E2=94=82
+                                        =E2=94=94=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+</code></pre>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-WorkflowCompar=
+isonMatrix">Workflow Comparison Matrix</h3>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<thead>
+<tr>
+<th class=3D"confluenceTh">Aspect</th>
+<th class=3D"confluenceTh">Production</th>
+<th class=3D"confluenceTh">Test</th>
+<th class=3D"confluenceTh">Regression</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><strong>Source</strong></td>
+<td class=3D"confluenceTd">IDC repos (10)</td>
+<td class=3D"confluenceTd">POC repo (1)</td>
+<td class=3D"confluenceTd">S3 cache</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Trigger</strong></td>
+<td class=3D"confluenceTd">PR Poller</td>
+<td class=3D"confluenceTd">PR Poller</td>
+<td class=3D"confluenceTd">Manual/PR-triggered</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Table</strong></td>
+<td class=3D"confluenceTd">github-open-prs-{env}</td>
+<td class=3D"confluenceTd">github-open-prs-{env}</td>
+<td class=3D"confluenceTd">github-prs-regression-test-{env}</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Key</strong></td>
+<td class=3D"confluenceTd">repo_pr</td>
+<td class=3D"confluenceTd">repo_pr</td>
+<td class=3D"confluenceTd">test_run_id + pr_id</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Step Function</strong></td>
+<td class=3D"confluenceTd">process-iam-pr-stepfunction</td>
+<td class=3D"confluenceTd">process-iam-pr-stepfunction</td>
+<td class=3D"confluenceTd">process-iam-pr-regression-stepfunction</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Definition</strong></td>
+<td class=3D"confluenceTd">definition-{env}.json</td>
+<td class=3D"confluenceTd">definition-{env}.json</td>
+<td class=3D"confluenceTd">definition-regression.json</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Teams Channel</strong></td>
+<td class=3D"confluenceTd">IAM-PR-Automation</td>
+<td class=3D"confluenceTd">IAM-PR-Automation-Test</td>
+<td class=3D"confluenceTd">IAM-PR-Automation-Regression</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Purpose</strong></td>
+<td class=3D"confluenceTd">Validate real PRs</td>
+<td class=3D"confluenceTd">Test system</td>
+<td class=3D"confluenceTd">Measure accuracy</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Duration</strong></td>
+<td class=3D"confluenceTd">~10-15 sec</td>
+<td class=3D"confluenceTd">~10-15 sec</td>
+<td class=3D"confluenceTd">~20-30 min</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Expected Result</strong></td>
+<td class=3D"confluenceTd">PASSED</td>
+<td class=3D"confluenceTd">FAILED</td>
+<td class=3D"confluenceTd">MATCH/MISMATCH</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Notification</strong></td>
+<td class=3D"confluenceTd">PR status</td>
+<td class=3D"confluenceTd">PR status</td>
+<td class=3D"confluenceTd">Accuracy metrics</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-MonitoredRepos=
+itories">Monitored Repositories</h3>
+<p>The system monitors 10 IAM repositories in the <code>Centralized-IAM-Acc=
+ounts</code> organization:</p>
+<ul>
+<li>idc-base-roles-prod</li>
+<li>idc-spain-roles-prod</li>
+<li>idc-gts-roles-prod</li>
+<li>idc-ta-roles-prod</li>
+<li>idc-auk-roles-prod</li>
+<li>idc-aam-roles-prod</li>
+<li>idc-tlb-roles-prod</li>
+<li>idc-cc-roles-prod</li>
+<li>idc-anl-roles-prod</li>
+<li>CSET/github-pr-poll-poc (test repository)</li>
+</ul>
+<hr>
+<h2 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-SystemArchitec=
+ture">System Architecture</h2>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-High-LevelArch=
+itecture">High-Level Architecture</h3>
+<pre><code>=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82                        GitHub Enterprise                         =
+   =E2=94=82
+=E2=94=82                     (git.us.aegon.com)                           =
+   =E2=94=82
+=E2=94=82                                                                  =
+   =E2=94=82
+=E2=94=82  =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90   =E2=94=82
+=E2=94=82  =E2=94=82  Centralized-IAM-Accounts Organization                =
+       =E2=94=82   =E2=94=82
+=E2=94=82  =E2=94=82  - idc-base-roles-prod                                =
+       =E2=94=82   =E2=94=82
+=E2=94=82  =E2=94=82  - idc-spain-roles-prod                               =
+       =E2=94=82   =E2=94=82
+=E2=94=82  =E2=94=82  - idc-gts-roles-prod                                 =
+       =E2=94=82   =E2=94=82
+=E2=94=82  =E2=94=82  - ... (10 repositories total)                        =
+       =E2=94=82   =E2=94=82
+=E2=94=82  =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98   =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+                              =E2=86=93 (VPC Connection)
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82                         AWS Infrastructure                       =
+   =E2=94=82
+=E2=94=82                    (Account: 286121356608)                       =
+   =E2=94=82
+=E2=94=82                                                                  =
+   =E2=94=82
+=E2=94=82  =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=90    =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=90    =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=90           =E2=94=82
+=E2=94=82  =E2=94=82 EventBridge  =E2=94=82=E2=94=80=E2=94=80=E2=94=80=E2=
+=96=B6=E2=94=82  PR Poller   =E2=94=82=E2=94=80=E2=94=80=E2=94=80=E2=96=B6=
+=E2=94=82  DynamoDB    =E2=94=82           =E2=94=82
+=E2=94=82  =E2=94=82 (3 min rate) =E2=94=82    =E2=94=82   Lambda     =E2=
+=94=82    =E2=94=82   Tables     =E2=94=82           =E2=94=82
+=E2=94=82  =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=98    =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=98    =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=98           =E2=94=82
+=E2=94=82                                                   =E2=94=82      =
+            =E2=94=82
+=E2=94=82                                                   =E2=94=82 Dynam=
+oDB Streams =E2=94=82
+=E2=94=82                                                   =E2=86=93      =
+            =E2=94=82
+=E2=94=82  =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=90    =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=90    =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=90           =E2=94=82
+=E2=94=82  =E2=94=82 Step Function=E2=94=82=E2=97=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=82 SF Trigger   =E2=94=82=E2=97=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=82   Stream     =E2=94=82           =E2=94=82
+=E2=94=82  =E2=94=82  Workflow    =E2=94=82    =E2=94=82   Lambda     =E2=
+=94=82    =E2=94=82   Events     =E2=94=82           =E2=94=82
+=E2=94=82  =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=98    =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=98    =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=98           =E2=94=82
+=E2=94=82         =E2=94=82                                                =
+           =E2=94=82
+=E2=94=82         =E2=94=82 (Parallel Execution)                           =
+           =E2=94=82
+=E2=94=82         =E2=86=93                                                =
+           =E2=94=82
+=E2=94=82  =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90                     =E2=
+=94=82
+=E2=94=82  =E2=94=82  Security    =E2=94=82 Compliance   =E2=94=82 IAM Boun=
+dary =E2=94=82                     =E2=94=82
+=E2=94=82  =E2=94=82    Scan      =E2=94=82    Check     =E2=94=82   Checke=
+r    =E2=94=82                     =E2=94=82
+=E2=94=82  =E2=94=82   Lambda     =E2=94=82   Lambda     =E2=94=82   Lambda=
+     =E2=94=82                     =E2=94=82
+=E2=94=82  =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=B4=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=B4=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98                     =E2=
+=94=82
+=E2=94=82         =E2=94=82              =E2=94=82              =E2=94=82  =
+                           =E2=94=82
+=E2=94=82         =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=B4=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98   =
+                          =E2=94=82
+=E2=94=82                        =E2=86=93                                 =
+           =E2=94=82
+=E2=94=82  =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=90    =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=90    =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=90           =E2=94=82
+=E2=94=82  =E2=94=82Final Status  =E2=94=82=E2=94=80=E2=94=80=E2=94=80=E2=
+=96=B6=E2=94=82  DynamoDB    =E2=94=82=E2=94=80=E2=94=80=E2=94=80=E2=96=B6=
+=E2=94=82    Teams     =E2=94=82           =E2=94=82
+=E2=94=82  =E2=94=82   Checker    =E2=94=82    =E2=94=82   Update     =E2=
+=94=82    =E2=94=82  Notifier    =E2=94=82           =E2=94=82
+=E2=94=82  =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=98    =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=98    =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=98           =E2=94=82
+=E2=94=82                                                   =E2=94=82      =
+           =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=BC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+                                                    =E2=86=93
+                                          =E2=94=8C=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+                                          =E2=94=82  MS Teams    =E2=94=82
+                                          =E2=94=82  Channels    =E2=94=82
+                                          =E2=94=94=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+</code></pre>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-ComponentOverv=
+iew">Component Overview</h3>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<thead>
+<tr>
+<th class=3D"confluenceTh">Component</th>
+<th class=3D"confluenceTh">Type</th>
+<th class=3D"confluenceTh">Purpose</th>
+<th class=3D"confluenceTh">Trigger</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><strong>PR Poller</strong></td>
+<td class=3D"confluenceTd">Lambda</td>
+<td class=3D"confluenceTd">Discovers open PRs from GitHub Enterprise</td>
+<td class=3D"confluenceTd">EventBridge (every 3 min)</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Step Function Trigger</strong></td>
+<td class=3D"confluenceTd">Lambda</td>
+<td class=3D"confluenceTd">Starts validation workflow</td>
+<td class=3D"confluenceTd">DynamoDB Stream (INSERT)</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Security Scan</strong></td>
+<td class=3D"confluenceTd">Lambda</td>
+<td class=3D"confluenceTd">Validates IAM policy security</td>
+<td class=3D"confluenceTd">Step Function</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Compliance Check</strong></td>
+<td class=3D"confluenceTd">Lambda</td>
+<td class=3D"confluenceTd">Validates IAM policy compliance</td>
+<td class=3D"confluenceTd">Step Function</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>IAM Boundary Checker</strong></td>
+<td class=3D"confluenceTd">Lambda</td>
+<td class=3D"confluenceTd">Validates IAM boundary policies</td>
+<td class=3D"confluenceTd">Step Function</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Final Status Checker</strong></td>
+<td class=3D"confluenceTd">Lambda</td>
+<td class=3D"confluenceTd">Determines overall PASS/FAIL/ERROR</td>
+<td class=3D"confluenceTd">Step Function</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Teams Notifier</strong></td>
+<td class=3D"confluenceTd">Lambda</td>
+<td class=3D"confluenceTd">Sends notifications to Teams</td>
+<td class=3D"confluenceTd">DynamoDB Stream (MODIFY)</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Historical PR Fetcher</strong></td>
+<td class=3D"confluenceTd">Lambda</td>
+<td class=3D"confluenceTd">Fetches historical PRs for testing</td>
+<td class=3D"confluenceTd">Manual/PR-triggered</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Regression Summary</strong></td>
+<td class=3D"confluenceTd">Lambda</td>
+<td class=3D"confluenceTd">Aggregates regression test results</td>
+<td class=3D"confluenceTd">Final Status Checker</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-WorkflowTypes"=
+>Workflow Types</h2>
+<p>The system supports three distinct workflow types:</p>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-1.ProductionPR=
+Workflow">1. Production PR Workflow</h3>
+<p><strong>Purpose</strong>: Validate new PRs from production IAM repositor=
+ies</p>
+<p><strong>Trigger</strong>: PR Poller discovers open PR<br><strong>Table</=
+strong>: <code>github-open-prs-{env}</code><br><strong>Step Function</stron=
+g>: <code>process-iam-pr-stepfunction</code><br><strong>Teams Channel</stro=
+ng>: IAM-PR-Automation<br><strong>Duration</strong>: ~10-15 seconds (after =
+PR detection)</p>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-2.TestPRWorkfl=
+ow">2. Test PR Workflow</h3>
+<p><strong>Purpose</strong>: Validate PRs from test repository (POC)</p>
+<p><strong>Trigger</strong>: PR Poller discovers open PR<br><strong>Table</=
+strong>: <code>github-open-prs-{env}</code><br><strong>Step Function</stron=
+g>: <code>process-iam-pr-stepfunction</code><br><strong>Teams Channel</stro=
+ng>: IAM-PR-Automation-Test<br><strong>Duration</strong>: ~10-15 seconds (a=
+fter PR detection)</p>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-3.RegressionTe=
+stingWorkflow">3. Regression Testing Workflow</h3>
+<p><strong>Purpose</strong>: Validate automation accuracy using historical =
+PRs</p>
+<p><strong>Trigger</strong>: Manual invocation or PR with <code>[REGRESSION=
+-TEST]</code> tag<br><strong>Table</strong>: <code>github-prs-regression-te=
+st-{env}</code><br><strong>Step Function</strong>: <code>process-iam-pr-reg=
+ression-stepfunction</code><br><strong>Teams Channel</strong>: IAM-PR-Autom=
+ation-Regression<br><strong>Duration</strong>: ~20-30 minutes (full test cy=
+cle)</p>
+<hr>
+<h2 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Infrastructure=
+Components">Infrastructure Components</h2>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-DynamoDBTables=
+">DynamoDB Tables</h3>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-ProductionTabl=
+e:github-open-prs-{env}">Production Table: <code>github-open-prs-{env}</cod=
+e></h4>
+<p><strong>Purpose</strong>: Stores production PR data and execution tracki=
+ng</p>
+<p><strong>Key Structure</strong>:</p>
+<ul>
+<li><strong>Partition Key</strong>: <code>repo_pr</code> (String) - Format:=
+ <code>{org}/{repo}#{pr_number}</code></li>
+</ul>
+<p><strong>Key Attributes</strong>:</p>
+<ul>
+<li><code>repo_pr</code>: Unique identifier (e.g., "Centralized-IAM-Account=
+s/idc-gts-roles-prod#250")</li>
+<li><code>repo</code>: Repository name</li>
+<li><code>pr_number</code>: PR number</li>
+<li><code>title</code>: PR title</li>
+<li><code>author</code>: PR author</li>
+<li><code>execution_status</code>: RUNNING | COMPLETED | FAILED</li>
+<li><code>execution_id</code>: Step Function execution ID</li>
+<li><code>security_scan_endstatus</code>: PASSED | FAILED | ERROR</li>
+<li><code>compliance_check_endstatus</code>: PASSED | FAILED | ERROR</li>
+<li><code>iam_boundary_check_endstatus</code>: PASSED | FAILED | ERROR</li>
+<li><code>final_status</code>: PASSED | FAILED | ERROR</li>
+<li><code>last_scanned</code>: Timestamp of last poll</li>
+</ul>
+<p><strong>Stream Configuration</strong>:</p>
+<ul>
+<li><strong>Enabled</strong>: Yes</li>
+<li><strong>View Type</strong>: NEW_AND_OLD_IMAGES</li>
+<li><strong>Purpose</strong>: Triggers Step Function and Teams notification=
+s</li>
+</ul>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-RegressionTabl=
+e:github-prs-regression-test-{env}">Regression Table: <code>github-prs-regr=
+ession-test-{env}</code></h4>
+<p><strong>Purpose</strong>: Stores regression test PR data and accuracy me=
+trics</p>
+<p><strong>Key Structure</strong>:</p>
+<ul>
+<li><strong>Partition Key</strong>: <code>test_run_id</code> (String) - For=
+mat: <code>test-run-{timestamp}</code></li>
+<li><strong>Sort Key</strong>: <code>pr_id</code> (String) - Format: <code>=
+{org}/{repo}#{pr_number}</code></li>
+</ul>
+<p><strong>Key Attributes</strong>:</p>
+<ul>
+<li><code>test_run_id</code>: Unique test run identifier</li>
+<li><code>pr_id</code>: PR identifier</li>
+<li><code>repo_pr</code>: Repository and PR number</li>
+<li><code>repository</code>: Repository name</li>
+<li><code>pr_number</code>: PR number</li>
+<li><code>execution_status</code>: RUNNING | COMPLETED | FAILED</li>
+<li><code>security_status</code>: PASSED | FAILED | ERROR</li>
+<li><code>compliance_status</code>: PASSED | FAILED | ERROR</li>
+<li><code>iam_boundary_status</code>: PASSED | FAILED | ERROR</li>
+<li><code>automated_decision</code>: PASSED | FAILED | ERROR</li>
+<li><code>human_decision</code>: APPROVED | REJECTED</li>
+<li><code>expected_result</code>: PASSED | FAILED</li>
+<li><code>test_result</code>: MATCH | MISMATCH</li>
+<li><code>timestamp</code>: Test execution timestamp</li>
+</ul>
+<p><strong>Global Secondary Index</strong>:</p>
+<ul>
+<li><strong>Name</strong>: <code>repository-timestamp-index</code></li>
+<li><strong>Partition Key</strong>: <code>repository</code></li>
+<li><strong>Sort Key</strong>: <code>timestamp</code></li>
+<li><strong>Purpose</strong>: Query test results by repository and time ran=
+ge</li>
+</ul>
+<p><strong>Stream Configuration</strong>:</p>
+<ul>
+<li><strong>Enabled</strong>: Yes</li>
+<li><strong>View Type</strong>: NEW_AND_OLD_IMAGES</li>
+<li><strong>Purpose</strong>: Triggers Step Function and aggregates results=
+</li>
+</ul>
+<hr>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-LambdaFunction=
+s">Lambda Functions</h3>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-1.PRPollerLamb=
+da">1. PR Poller Lambda</h4>
+<p><strong>Function Name</strong>: <code>gts-github-pr-poll-poller-{env}</c=
+ode><br><strong>Runtime</strong>: Python 3.12<br><strong>Timeout</strong>: =
+300 seconds<br><strong>Memory</strong>: 512 MB<br><strong>VPC</strong>: Ena=
+bled (for GitHub Enterprise access)</p>
+<p><strong>Purpose</strong>: Polls GitHub Enterprise for open PRs every 3 m=
+inutes</p>
+<p><strong>Trigger</strong>: EventBridge rule (rate: 3 minutes)</p>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>Reads repository list from <code>config.json</code></li>
+<li>Calls GitHub Enterprise API for each repository</li>
+<li>Filters for open PRs</li>
+<li>Inserts new PRs into DynamoDB (INSERT event)</li>
+<li>Updates existing PRs with latest metadata (MODIFY event)</li>
+<li>Detects <code>[REGRESSION-TEST]</code> tag for regression testing</li>
+</ol>
+<p><strong>Environment Variables</strong>:</p>
+<ul>
+<li><code>DYNAMODB_TABLE</code>: Production table name</li>
+<li><code>REGRESSION_DYNAMODB_TABLE</code>: Regression table name</li>
+<li><code>HISTORICAL_S3_BUCKET</code>: S3 bucket for historical PR cache</l=
+i>
+<li><code>HISTORICAL_PR_FETCHER_FUNCTION</code>: Historical PR fetcher Lamb=
+da name</li>
+</ul>
+<p><strong>IAM Permissions</strong>:</p>
+<ul>
+<li>DynamoDB: PutItem, UpdateItem on both tables</li>
+<li>Secrets Manager: GetSecretValue (GitHub token)</li>
+<li>Lambda: InvokeFunction (Historical PR Fetcher)</li>
+<li>VPC: Network interface management</li>
+</ul>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-2.StepFunction=
+TriggerLambda">2. Step Function Trigger Lambda</h4>
+<p><strong>Function Name</strong>: <code>gts-github-pr-poll-stepfunction-tr=
+igger-{env}</code><br><strong>Runtime</strong>: Python 3.12<br><strong>Time=
+out</strong>: 60 seconds<br><strong>Memory</strong>: 256 MB</p>
+<p><strong>Purpose</strong>: Triggers Step Function workflow when new PR is=
+ inserted</p>
+<p><strong>Trigger</strong>: DynamoDB Stream (INSERT events only)</p>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>Receives DynamoDB Stream event</li>
+<li>Checks for idempotency (execution_id already exists)</li>
+<li>Checks if final_status already exists (skip if present)</li>
+<li>Normalizes event structure for regression tests</li>
+<li>Starts appropriate Step Function execution</li>
+<li>Updates DynamoDB with execution_id and execution_status=3DRUNNING</li>
+</ol>
+<p><strong>Environment Variables</strong>:</p>
+<ul>
+<li><code>STEPFUNCTION_ARN</code>: Production Step Function ARN</li>
+<li><code>REGRESSION_STEPFUNCTION_ARN</code>: Regression Step Function ARN<=
+/li>
+<li><code>DYNAMODB_TABLE</code>: Production table name</li>
+<li><code>REGRESSION_DYNAMODB_TABLE</code>: Regression table name</li>
+</ul>
+<p><strong>IAM Permissions</strong>:</p>
+<ul>
+<li>Step Functions: StartExecution</li>
+<li>DynamoDB: UpdateItem on both tables</li>
+<li>CloudWatch: PutLogEvents</li>
+</ul>
+<p><strong>Event Source Mappings</strong>:</p>
+<ul>
+<li><strong>Production</strong>: Filters INSERT events from <code>github-op=
+en-prs-{env}</code></li>
+<li><strong>Regression</strong>: Filters INSERT events from <code>github-pr=
+s-regression-test-{env}</code></li>
+</ul>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-3.SecurityScan=
+LambdaDummy">3. Security Scan Lambda Dummy</h4>
+<p><strong>Function Name</strong>: <code>gts-github-pr-poll-security-scan-{=
+env}</code><br><strong>Runtime</strong>: Python 3.12<br><strong>Timeout</st=
+rong>: 300 seconds<br><strong>Memory</strong>: 512 MB</p>
+<p><strong>Purpose</strong>: Validates IAM policy security requirements</p>
+<p><strong>Trigger</strong>: Step Function (parallel execution)</p>
+<p><strong>Validation Checks</strong>:</p>
+<ul>
+<li>IAM policy syntax validation dummy</li>
+<li>Overly permissive permissions detection dummy</li>
+<li>Wildcard usage in actions and resources dummy</li>
+<li>Cross-account access validation dummy</li>
+<li>Service control policy compliance dummy</li>
+</ul>
+<p><strong>Input</strong>: DynamoDB event or regression test data</p>
+<p><strong>Output</strong>:</p>
+<pre><code class=3D"language-json">{
+  "status": "PASSED" | "FAILED" | "ERROR",
+  "details": "Detailed validation results"
+}
+</code></pre>
+<p><strong>Environment Variables</strong>:</p>
+<ul>
+<li><code>ENVIRONMENT</code>: dev | prd</li>
+</ul>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-4.ComplianceCh=
+eckLambdaDummy">4. Compliance Check Lambda Dummy</h4>
+<p><strong>Function Name</strong>: <code>gts-github-pr-poll-compliance-chec=
+k-{env}</code><br><strong>Runtime</strong>: Python 3.12<br><strong>Timeout<=
+/strong>: 300 seconds<br><strong>Memory</strong>: 512 MB</p>
+<p><strong>Purpose</strong>: Validates IAM policy compliance requirements</=
+p>
+<p><strong>Trigger</strong>: Step Function (parallel execution)</p>
+<p><strong>Validation Checks</strong>:</p>
+<ul>
+<li>Organizational policy compliance dummy</li>
+<li>Required tags presence dummy</li>
+<li>Naming convention adherence dummy</li>
+<li>Resource limits compliance dummy</li>
+<li>Audit logging requirements dummy</li>
+</ul>
+<p><strong>Input</strong>: DynamoDB event or regression test data</p>
+<p><strong>Output</strong>:</p>
+<pre><code class=3D"language-json">{
+  "status": "PASSED" | "FAILED" | "ERROR",
+  "details": "Detailed validation results"
+}
+</code></pre>
+<p><strong>Environment Variables</strong>:</p>
+<ul>
+<li><code>ENVIRONMENT</code>: dev | prd</li>
+</ul>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-5.IAMBoundaryC=
+heckerLambda">5. IAM Boundary Checker Lambda</h4>
+<p><strong>Function Name</strong>: <code>gts-github-pr-poll-iam-boundary-ch=
+ecker-{env}</code><br><strong>Runtime</strong>: Python 3.12<br><strong>Time=
+out</strong>: 300 seconds<br><strong>Memory</strong>: 512 MB<br><strong>VPC=
+</strong>: Enabled (for GitHub Enterprise access)</p>
+<p><strong>Purpose</strong>: Validates IAM boundary policy requirements</p>
+<p><strong>Trigger</strong>: Step Function (parallel execution)</p>
+<p><strong>Validation Checks</strong>:</p>
+<ul>
+<li>Boundary policy attachment verification</li>
+<li>Boundary policy permissions validation</li>
+<li>Effective permissions calculation</li>
+<li>Boundary policy compliance with standards</li>
+</ul>
+<p><strong>Input</strong>: DynamoDB event or regression test data</p>
+<p><strong>Output</strong>:</p>
+<pre><code class=3D"language-json">{
+  "status": "PASSED" | "FAILED" | "ERROR",
+  "details": "Detailed validation results"
+}
+</code></pre>
+<p><strong>Environment Variables</strong>:</p>
+<ul>
+<li><code>GITHUB_API_BASE_URL</code>: GitHub Enterprise API URL</li>
+<li><code>ENVIRONMENT</code>: dev | prd</li>
+</ul>
+<p><strong>IAM Permissions</strong>:</p>
+<ul>
+<li>Secrets Manager: GetSecretValue (GitHub token)</li>
+<li>VPC: Network interface management</li>
+</ul>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-6.ADGroupEnvir=
+onmentCheckerLambda"><span class=3D"mynah-ui-animation-text-content"><span =
+class=3D"typewriter-part">6. AD&nbsp;</span><span class=3D"typewriter-part"=
+>Group&nbsp;</span><span class=3D"typewriter-part">Environment&nbsp;</span>=
+<span class=3D"typewriter-part">Checker&nbsp;</span><span class=3D"typewrit=
+er-part">Lambda</span></span></h4>
+<p><strong><span class=3D"mynah-ui-animation-text-content"><span class=3D"t=
+ypewriter-part">Function<span>&nbsp;</span></span><span class=3D"typewriter=
+-part">Name:<span> </span></span></span></strong><code class=3D"language-pl=
+aintext hljs" style=3D"text-align: left;">gts-github-pr-poll-ad-group-check=
+er-{env}</code></p>
+<p><strong><span class=3D"mynah-ui-animation-text-content"><span class=3D"t=
+ypewriter-part">Runtime:<span>&nbsp;</span></span></span></strong><span cla=
+ss=3D"mynah-ui-animation-text-content"><span class=3D"typewriter-part">Pyth=
+on<span>&nbsp;</span></span><span class=3D"typewriter-part">3.12</span></sp=
+an><br><strong><span class=3D"mynah-ui-animation-text-content"><span class=
+=3D"typewriter-part">Timeout:<span>&nbsp;</span></span></span></strong><spa=
+n class=3D"mynah-ui-animation-text-content"><span class=3D"typewriter-part"=
+>120<span>&nbsp;</span></span><span class=3D"typewriter-part">seconds</span=
+></span><br><strong><span class=3D"mynah-ui-animation-text-content"><span c=
+lass=3D"typewriter-part">Memory:<span>&nbsp;</span></span></span></strong><=
+span class=3D"mynah-ui-animation-text-content"><span class=3D"typewriter-pa=
+rt">512<span>&nbsp;</span></span><span class=3D"typewriter-part">MB</span><=
+/span><br><strong><span class=3D"mynah-ui-animation-text-content"><span cla=
+ss=3D"typewriter-part">VPC:<span>&nbsp;</span></span></span></strong><span =
+class=3D"mynah-ui-animation-text-content"><span class=3D"typewriter-part">E=
+nabled<span>&nbsp;</span></span><span class=3D"typewriter-part">(for<span>&=
+nbsp;</span></span><span class=3D"typewriter-part">GitHub<span>&nbsp;</span=
+></span><span class=3D"typewriter-part">Enterprise<span>&nbsp;</span></span=
+><span class=3D"typewriter-part">and<span>&nbsp;</span></span><span class=
+=3D"typewriter-part">LDAP<span>&nbsp;</span></span><span class=3D"typewrite=
+r-part">access)</span></span></p>
+<p><strong><span class=3D"mynah-ui-animation-text-content"><span class=3D"t=
+ypewriter-part">Purpose:&nbsp; </span></span></strong><span class=3D"mynah-=
+ui-animation-text-content"><span class=3D"typewriter-part">Validates<span>&=
+nbsp;</span></span><span class=3D"typewriter-part">that<span>&nbsp;</span><=
+/span><span class=3D"typewriter-part">Active<span>&nbsp;</span></span><span=
+ class=3D"typewriter-part">Directory<span>&nbsp;</span></span><span class=
+=3D"typewriter-part">(AD)<span>&nbsp;</span></span><span class=3D"typewrite=
+r-part">group<span>&nbsp;</span></span><span class=3D"typewriter-part">envi=
+ronment<span>&nbsp;</span></span><span class=3D"typewriter-part">naming<spa=
+n>&nbsp;</span></span><span class=3D"typewriter-part">matches<span>&nbsp;</=
+span></span><span class=3D"typewriter-part">AWS<span>&nbsp;</span></span><s=
+pan class=3D"typewriter-part">account<span>&nbsp;</span></span><span class=
+=3D"typewriter-part">environments<span>&nbsp;</span></span><span class=3D"t=
+ypewriter-part">from<span>&nbsp;</span></span><span class=3D"typewriter-par=
+t">Stacklet<span>&nbsp;</span></span><span class=3D"typewriter-part">metada=
+ta,<span>&nbsp;</span></span><span class=3D"typewriter-part">ensuring<span>=
+&nbsp;</span></span><span class=3D"typewriter-part">proper<span>&nbsp;</spa=
+n></span><span class=3D"typewriter-part">access<span>&nbsp;</span></span><s=
+pan class=3D"typewriter-part">control<span>&nbsp;</span></span><span class=
+=3D"typewriter-part">alignment<span>&nbsp;</span></span><span class=3D"type=
+writer-part">between<span>&nbsp;</span></span><span class=3D"typewriter-par=
+t">AD<span>&nbsp;</span></span><span class=3D"typewriter-part">groups<span>=
+&nbsp;</span></span><span class=3D"typewriter-part">and<span>&nbsp;</span><=
+/span><span class=3D"typewriter-part">AWS<span>&nbsp;</span></span><span cl=
+ass=3D"typewriter-part">accounts.</span></span></p>
+<p><strong><span class=3D"mynah-ui-animation-text-content"><span class=3D"t=
+ypewriter-part">Trigger: </span></span></strong><span class=3D"mynah-ui-ani=
+mation-text-content"><span class=3D"typewriter-part">Step<span>&nbsp;</span=
+></span><span class=3D"typewriter-part">Function<span>&nbsp;</span></span><=
+span class=3D"typewriter-part">(parallel<span>&nbsp;</span></span><span cla=
+ss=3D"typewriter-part">execution<span>&nbsp;</span></span><span class=3D"ty=
+pewriter-part">alongside<span>&nbsp;</span></span><span class=3D"typewriter=
+-part">IAM<span>&nbsp;</span></span><span class=3D"typewriter-part">Boundar=
+y<span>&nbsp;</span></span><span class=3D"typewriter-part">and<span>&nbsp;<=
+/span></span><span class=3D"typewriter-part">Policy<span>&nbsp;</span></spa=
+n><span class=3D"typewriter-part">Compliance<span>&nbsp;</span></span><span=
+ class=3D"typewriter-part">checks)</span></span></p>
+<p><strong><span class=3D"mynah-ui-animation-text-content"><span class=3D"t=
+ypewriter-part">Validation&nbsp;</span><span class=3D"typewriter-part">Chec=
+ks</span></span></strong></p>
+<p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typewrite=
+r-part">1.<span>&nbsp;</span></span><span class=3D"typewriter-part">AD<span=
+>&nbsp;</span></span><span class=3D"typewriter-part">Group<span>&nbsp;</spa=
+n></span><span class=3D"typewriter-part">Extraction</span></span></p>
+<ul>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">Parses<span> &nbsp;<code class=3D"language-plaintext hljs" styl=
+e=3D"text-align: left;">role.hcl <span class=3D"typewriter-part">files&nbsp=
+;</span><span class=3D"typewriter-part">for&nbsp;</span><span class=3D"type=
+writer-part">AD&nbsp;</span><span class=3D"typewriter-part">group&nbsp;</sp=
+an><span class=3D"typewriter-part">names</span></code></span></span></span>=
+</p></li>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">Extracts<span>&nbsp;</span></span><span class=3D"typewriter-par=
+t">account<span>&nbsp;</span></span><span class=3D"typewriter-part">numbers=
+<span>&nbsp;</span></span><span class=3D"typewriter-part">from<span> <code =
+class=3D"language-plaintext hljs" style=3D"text-align: left;">account.hcl.j=
+son</code></span></span></span></p></li>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">Maps<span>&nbsp;</span></span><span class=3D"typewriter-part">A=
+D<span>&nbsp;</span></span><span class=3D"typewriter-part">groups<span>&nbs=
+p;</span></span><span class=3D"typewriter-part">to<span>&nbsp;</span></span=
+><span class=3D"typewriter-part">their<span>&nbsp;</span></span><span class=
+=3D"typewriter-part">associated<span>&nbsp;</span></span><span class=3D"typ=
+ewriter-part">AWS<span>&nbsp;</span></span><span class=3D"typewriter-part">=
+accounts</span></span></p></li>
+</ul>
+<p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typewrite=
+r-part">2.<span>&nbsp;</span></span><span class=3D"typewriter-part">Environ=
+ment<span>&nbsp;</span></span><span class=3D"typewriter-part">Pattern<span>=
+&nbsp;</span></span><span class=3D"typewriter-part">Matching</span></span><=
+/p>
+<p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typewrite=
+r-part">Extracts<span>&nbsp;</span></span><span class=3D"typewriter-part">e=
+nvironment<span>&nbsp;</span></span><span class=3D"typewriter-part">from<sp=
+an>&nbsp;</span></span><span class=3D"typewriter-part">AD<span>&nbsp;</span=
+></span><span class=3D"typewriter-part">group<span>&nbsp;</span></span><spa=
+n class=3D"typewriter-part">name<span>&nbsp;</span></span><span class=3D"ty=
+pewriter-part">using<span>&nbsp;</span></span><span class=3D"typewriter-par=
+t">regex<span>&nbsp;</span></span><span class=3D"typewriter-part">patterns:=
+</span></span></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">Environment</span></span></p></th>
+<th class=3D"confluenceTh"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">Patterns</span></span></p></th>
+<th class=3D"confluenceTh"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">Position</span></span></p></th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong><span class=3D"mynah-ui-animation-tex=
+t-content"><span class=3D"typewriter-part">PRD</span></span></strong></p></=
+td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">PRDTEAM,<span>&nbsp;</span></span><span =
+class=3D"typewriter-part">PRD,<span>&nbsp;</span></span><span class=3D"type=
+writer-part">AWSPRD,<span>&nbsp;</span></span><span class=3D"typewriter-par=
+t">PRDPII,<span>&nbsp;</span></span><span class=3D"typewriter-part">PRDPIIR=
+O,<span>&nbsp;</span></span><span class=3D"typewriter-part">DATAPRD,<span>&=
+nbsp;</span></span><span class=3D"typewriter-part">PROD</span></span></p></=
+td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">End/Middle</span></span></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong><span class=3D"mynah-ui-animation-tex=
+t-content"><span class=3D"typewriter-part">DEV</span></span></strong></p></=
+td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">DEVTEAM,<span>&nbsp;</span></span><span =
+class=3D"typewriter-part">DEV,<span>&nbsp;</span></span><span class=3D"type=
+writer-part">AWSDEV,<span>&nbsp;</span></span><span class=3D"typewriter-par=
+t">DEVPII,<span>&nbsp;</span></span><span class=3D"typewriter-part">DEVPIIR=
+O,<span>&nbsp;</span></span><span class=3D"typewriter-part">DATADEV</span><=
+/span></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">End/Middle</span></span></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong><span class=3D"mynah-ui-animation-tex=
+t-content"><span class=3D"typewriter-part">TST</span></span></strong></p></=
+td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">TSTTEAM,<span>&nbsp;</span></span><span =
+class=3D"typewriter-part">TST,<span>&nbsp;</span></span><span class=3D"type=
+writer-part">AWSTST,<span>&nbsp;</span></span><span class=3D"typewriter-par=
+t">TSTPII,<span>&nbsp;</span></span><span class=3D"typewriter-part">TSTPIIR=
+O,<span>&nbsp;</span></span><span class=3D"typewriter-part">DATATST,<span>&=
+nbsp;</span></span><span class=3D"typewriter-part">TEST</span></span></p></=
+td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">End/Middle</span></span></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong><span class=3D"mynah-ui-animation-tex=
+t-content"><span class=3D"typewriter-part">MDL</span></span></strong></p></=
+td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">MDLTEAM,<span>&nbsp;</span></span><span =
+class=3D"typewriter-part">MDL,<span>&nbsp;</span></span><span class=3D"type=
+writer-part">AWSMDL,<span>&nbsp;</span></span><span class=3D"typewriter-par=
+t">MDLPII,<span>&nbsp;</span></span><span class=3D"typewriter-part">MDLPIIR=
+O,<span>&nbsp;</span></span><span class=3D"typewriter-part">DATAMDL,<span>&=
+nbsp;</span></span><span class=3D"typewriter-part">MODEL</span></span></p><=
+/td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">End/Middle</span></span></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong><span class=3D"mynah-ui-animation-tex=
+t-content"><span class=3D"typewriter-part">NONPROD</span></span></strong></=
+p></td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">TANONPROD,<span>&nbsp;</span></span><spa=
+n class=3D"typewriter-part">NONPROD</span></span></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">Middle/End</span></span></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong><span class=3D"mynah-ui-animation-tex=
+t-content"><span class=3D"typewriter-part">SBX</span></span></strong></p></=
+td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">SANDBOX</span></span></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">End</span></span></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><strong><span class=3D"mynah-ui-animation-tex=
+t-content"><span class=3D"typewriter-part">Default</span></span></strong></=
+p></td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">No<span>&nbsp;</span></span><span class=
+=3D"typewriter-part">pattern<span>&nbsp;</span></span><span class=3D"typewr=
+iter-part">match</span></span></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">Treated<span>&nbsp;</span></span><span c=
+lass=3D"typewriter-part">as<span>&nbsp;</span></span><span class=3D"typewri=
+ter-part">NONPROD</span></span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typewrite=
+r-part">3.<span>&nbsp;</span></span><span class=3D"typewriter-part">Account=
+<span>&nbsp;</span></span><span class=3D"typewriter-part">Environment<span>=
+&nbsp;</span></span><span class=3D"typewriter-part">Lookup</span></span></p=
+>
+<ul>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">Queries<span>&nbsp;</span></span><span class=3D"typewriter-part=
+">AWS<span>&nbsp;</span></span><span class=3D"typewriter-part">Stacklet<spa=
+n>&nbsp;</span></span><span class=3D"typewriter-part">metadata<span>&nbsp;<=
+/span></span><span class=3D"typewriter-part">via<span>&nbsp;</span></span><=
+span class=3D"typewriter-part">Athena</span></span></p></li>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">Retrieves<span>&nbsp;</span></span><span class=3D"typewriter-pa=
+rt">environment<span>&nbsp;</span></span><span class=3D"typewriter-part">cl=
+assification<span>&nbsp;</span></span><span class=3D"typewriter-part">for<s=
+pan>&nbsp;</span></span><span class=3D"typewriter-part">each<span>&nbsp;</s=
+pan></span><span class=3D"typewriter-part">account</span></span></p></li>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">Database:<span> <code class=3D"language-plaintext hljs" style=
+=3D"text-align: left;">amazon_security_lake_stacklet_queries.aws_accounts_m=
+etadata</code></span></span></span></p></li>
+</ul>
+<p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typewrite=
+r-part">4.<span>&nbsp;</span></span><span class=3D"typewriter-part">Environ=
+ment<span>&nbsp;</span></span><span class=3D"typewriter-part">Validation<sp=
+an>&nbsp;</span></span><span class=3D"typewriter-part">Rules</span></span><=
+/p>
+<p><strong><span class=3D"mynah-ui-animation-text-content"><span class=3D"t=
+ypewriter-part">Rule<span>&nbsp;</span></span><span class=3D"typewriter-par=
+t">1:<span>&nbsp;</span></span><span class=3D"typewriter-part">NONPROD<span=
+>&nbsp;</span></span><span class=3D"typewriter-part">Groups</span></span></=
+strong></p>
+<ul>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">=E2=9C=85<span>&nbsp;</span></span><span class=3D"typewriter-pa=
+rt">Allow:<span>&nbsp;</span></span><span class=3D"typewriter-part">DEV,<sp=
+an>&nbsp;</span></span><span class=3D"typewriter-part">TST,<span>&nbsp;</sp=
+an></span><span class=3D"typewriter-part">MDL,<span>&nbsp;</span></span><sp=
+an class=3D"typewriter-part">SBX,<span>&nbsp;</span></span><span class=3D"t=
+ypewriter-part">UAT<span>&nbsp;</span></span><span class=3D"typewriter-part=
+">accounts</span></span></p></li>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">=E2=9D=8C<span>&nbsp;</span></span><span class=3D"typewriter-pa=
+rt">Block:<span>&nbsp;</span></span><span class=3D"typewriter-part">PRD<spa=
+n>&nbsp;</span></span><span class=3D"typewriter-part">accounts</span></span=
+></p></li>
+</ul>
+<p><strong><span class=3D"mynah-ui-animation-text-content"><span class=3D"t=
+ypewriter-part">Rule<span>&nbsp;</span></span><span class=3D"typewriter-par=
+t">2:<span>&nbsp;</span></span><span class=3D"typewriter-part">Specific<spa=
+n>&nbsp;</span></span><span class=3D"typewriter-part">Environment<span>&nbs=
+p;</span></span><span class=3D"typewriter-part">Groups</span></span></stron=
+g></p>
+<ul>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">=E2=9C=85<span>&nbsp;</span></span><span class=3D"typewriter-pa=
+rt">Allow:<span>&nbsp;</span></span><span class=3D"typewriter-part">Only<sp=
+an>&nbsp;</span></span><span class=3D"typewriter-part">matching<span>&nbsp;=
+</span></span><span class=3D"typewriter-part">environment<span>&nbsp;</span=
+></span><span class=3D"typewriter-part">accounts</span></span></p></li>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">Example:<span>&nbsp;</span></span><span class=3D"typewriter-par=
+t">DEV<span>&nbsp;</span></span><span class=3D"typewriter-part">group<span>=
+&nbsp;</span></span><span class=3D"typewriter-part">=E2=86=92<span>&nbsp;</=
+span></span><span class=3D"typewriter-part">Only<span>&nbsp;</span></span><=
+span class=3D"typewriter-part">DEV<span>&nbsp;</span></span><span class=3D"=
+typewriter-part">accounts</span></span></p></li>
+</ul>
+<p><strong><span class=3D"mynah-ui-animation-text-content"><span class=3D"t=
+ypewriter-part">Rule<span>&nbsp;</span></span><span class=3D"typewriter-par=
+t">3:<span>&nbsp;</span></span><span class=3D"typewriter-part">No<span>&nbs=
+p;</span></span><span class=3D"typewriter-part">Environment<span>&nbsp;</sp=
+an></span><span class=3D"typewriter-part">Pattern</span></span></strong></p=
+>
+<ul>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">Treated<span>&nbsp;</span></span><span class=3D"typewriter-part=
+">as<span>&nbsp;</span></span><span class=3D"typewriter-part">NONPROD<span>=
+&nbsp;</span></span><span class=3D"typewriter-part">(follows<span>&nbsp;</s=
+pan></span><span class=3D"typewriter-part">Rule<span>&nbsp;</span></span><s=
+pan class=3D"typewriter-part">1)</span></span></p></li>
+</ul>
+<p><strong><span class=3D"mynah-ui-animation-text-content"><span class=3D"t=
+ypewriter-part">Rule<span>&nbsp;</span></span><span class=3D"typewriter-par=
+t">4:<span>&nbsp;</span></span><span class=3D"typewriter-part">Multiple<spa=
+n>&nbsp;</span></span><span class=3D"typewriter-part">Accounts</span></span=
+></strong></p>
+<ul>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">All<span>&nbsp;</span></span><span class=3D"typewriter-part">ac=
+counts<span>&nbsp;</span></span><span class=3D"typewriter-part">must<span>&=
+nbsp;</span></span><span class=3D"typewriter-part">match<span>&nbsp;</span>=
+</span><span class=3D"typewriter-part">AD<span>&nbsp;</span></span><span cl=
+ass=3D"typewriter-part">group<span>&nbsp;</span></span><span class=3D"typew=
+riter-part">environment</span></span></p></li>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">Fails<span>&nbsp;</span></span><span class=3D"typewriter-part">=
+if<span>&nbsp;</span></span><span class=3D"typewriter-part">any<span>&nbsp;=
+</span></span><span class=3D"typewriter-part">account<span>&nbsp;</span></s=
+pan><span class=3D"typewriter-part">mismatches</span></span></p></li>
+</ul>
+<p><strong><span class=3D"mynah-ui-animation-text-content"><span class=3D"t=
+ypewriter-part">Environment&nbsp;</span><span class=3D"typewriter-part">Var=
+iables</span></span></strong></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">Variable</span></span></p></th>
+<th class=3D"confluenceTh"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">Description</span></span></p></th>
+<th class=3D"confluenceTh"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">Example</span></span></p></th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><code class=3D"language-plaintext hljs" style=
+=3D"text-align: left;">ENVIRONMENT</code></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">Deployment<span>&nbsp;</span></span><spa=
+n class=3D"typewriter-part">environment</span></span></p></td>
+<td class=3D"confluenceTd"><p><code class=3D"language-plaintext hljs" style=
+=3D"text-align: left;">dev</code></p><p><span class=3D"mynah-ui-animation-t=
+ext-content"><span class=3D"typewriter-part"><span>&nbsp;</span></span><spa=
+n class=3D"typewriter-part">|<span>&nbsp;</span></span></span></p><p><code =
+class=3D"language-plaintext hljs" style=3D"text-align: left;">prd</code></p=
+></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><code class=3D"language-plaintext hljs" style=
+=3D"text-align: left;">LDAP_SECRET_NAME</code></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">Secrets<span>&nbsp;</span></span><span c=
+lass=3D"typewriter-part">Manager<span>&nbsp;</span></span><span class=3D"ty=
+pewriter-part">secret<span>&nbsp;</span></span><span class=3D"typewriter-pa=
+rt">for<span>&nbsp;</span></span><span class=3D"typewriter-part">LDAP<span>=
+&nbsp;</span></span><span class=3D"typewriter-part">credentials</span></spa=
+n></p></td>
+<td class=3D"confluenceTd"><p><code class=3D"language-plaintext hljs" style=
+=3D"text-align: left;">ldap-service-account</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong><span class=3D"mynah-ui-animation-text-content"><span class=3D"t=
+ypewriter-part">Lambda&nbsp;</span><span class=3D"typewriter-part">Layers</=
+span></span></strong></p>
+<ol>
+<li><p><strong><span class=3D"mynah-ui-animation-text-content"><span class=
+=3D"typewriter-part">LDAP3<span>&nbsp;</span></span><span class=3D"typewrit=
+er-part">Layer<span>&nbsp;</span></span></span></strong><span class=3D"myna=
+h-ui-animation-text-content"><span class=3D"typewriter-part">(ARN<span>&nbs=
+p;</span></span><span class=3D"typewriter-part">varies<span>&nbsp;</span></=
+span><span class=3D"typewriter-part">by<span>&nbsp;</span></span><span clas=
+s=3D"typewriter-part">environment)</span></span></p>
+<ul>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">Dev: <code class=3D"language-plaintext hljs" style=3D"text-alig=
+n: left;">arn:aws:lambda:us-east-1:286121356608:layer:gts-github-pr-poll-ld=
+ap3:1</code></span></span></p></li>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">Prd:<span> <code class=3D"language-plaintext hljs" style=3D"tex=
+t-align: left;">arn:aws:lambda:us-east-1:499999308894:layer:gts-github-pr-p=
+oll-ldap3:1</code></span></span></span></p></li>
+</ul></li>
+<li><p><strong><span class=3D"mynah-ui-animation-text-content"><span class=
+=3D"typewriter-part">AWS<span>&nbsp;</span></span><span class=3D"typewriter=
+-part">SDK<span>&nbsp;</span></span><span class=3D"typewriter-part">Pandas<=
+span>&nbsp;</span></span><span class=3D"typewriter-part">Layer</span></span=
+></strong></p>
+<ul>
+<li><p><code class=3D"language-plaintext hljs" style=3D"text-align: left;">=
+arn:aws:lambda:us-east-1:336392948345:layer:AWSSDKPandas-Python312:16</code=
+></p></li>
+<li><span class=3D"mynah-ui-animation-text-content"><span class=3D"typewrit=
+er-part">Provides<span>&nbsp;</span></span><span class=3D"typewriter-part">=
+pandas,<span>&nbsp;</span></span><span class=3D"typewriter-part">numpy,<spa=
+n>&nbsp;</span></span><span class=3D"typewriter-part">and<span>&nbsp;</span=
+></span><span class=3D"typewriter-part">AWS<span>&nbsp;</span></span><span =
+class=3D"typewriter-part">SDK<span>&nbsp;</span></span><span class=3D"typew=
+riter-part">for<span>&nbsp;</span></span><span class=3D"typewriter-part">At=
+hena<span>&nbsp;</span></span><span class=3D"typewriter-part">queries</span=
+></span></li>
+</ul></li>
+<li><p><strong><span class=3D"mynah-ui-animation-text-content"><span class=
+=3D"typewriter-part">Requests<span>&nbsp;</span></span><span class=3D"typew=
+riter-part">Layer</span></span></strong></p>
+<ul>
+<li><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typew=
+riter-part">HTTP<span>&nbsp;</span></span><span class=3D"typewriter-part">c=
+lient<span>&nbsp;</span></span><span class=3D"typewriter-part">for<span>&nb=
+sp;</span></span><span class=3D"typewriter-part">GitHub<span>&nbsp;</span><=
+/span><span class=3D"typewriter-part">API<span>&nbsp;</span></span><span cl=
+ass=3D"typewriter-part">calls</span></span></p></li>
+</ul></li>
+</ol>
+<p><strong><span class=3D"mynah-ui-animation-text-content"><span class=3D"t=
+ypewriter-part">IAM&nbsp;</span><span class=3D"typewriter-part">Permissions=
+</span></span></strong></p>
+<ul>
+<li>Secrets Manager: GetSecretValue (GitHub token)</li>
+<li>VPC: Network interface management</li>
+<li><span class=3D"mynah-ui-animation-text-content"><span class=3D"typewrit=
+er-part">LDAP<span>&nbsp;</span></span><span class=3D"typewriter-part">cred=
+entials:<span> </span></span></span><code class=3D"language-plaintext hljs"=
+ style=3D"text-align: left;">ldap-service-account</code></li>
+<li>Athena&nbsp;<span class=3D"typewriter-part" style=3D"letter-spacing: 0.=
+0px;">&amp;&nbsp;</span><span class=3D"typewriter-part" style=3D"letter-spa=
+cing: 0.0px;">Glue</span></li>
+<li><span style=3D"letter-spacing: 0.0px;font-family: SFMono-Medium , &quot=
+;SF Mono&quot; , &quot;Segoe UI Mono&quot; , &quot;Roboto Mono&quot; , &quo=
+t;Ubuntu Mono&quot; , Menlo , Courier , monospace;">S3: aws-athena-query-re=
+sults-us-east-1-{account_id}</span></li>
+</ul>
+<p><strong><span class=3D"mynah-ui-animation-text-content"><span class=3D"t=
+ypewriter-part">DynamoDB&nbsp;</span><span class=3D"typewriter-part">Update=
+s</span></span></strong></p>
+<p><br></p>
+<p><span class=3D"mynah-ui-animation-text-content"><span class=3D"typewrite=
+r-part"><span class=3D"typewriter-part">table<span>&nbsp;</span></span><spa=
+n class=3D"typewriter-part">with:</span></span></span></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">Field</span></span></p></th>
+<th class=3D"confluenceTh"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">Type</span></span></p></th>
+<th class=3D"confluenceTh"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">Description</span></span></p></th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><code class=3D"language-plaintext hljs" style=
+=3D"text-align: left;">ad_group_check_endstatus</code></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">String</span></span></p></td>
+<td class=3D"confluenceTd"><p><code class=3D"language-plaintext hljs" style=
+=3D"text-align: left;">PASSED</code></p><p><span class=3D"mynah-ui-animatio=
+n-text-content"><span class=3D"typewriter-part"><span>&nbsp;</span></span><=
+span class=3D"typewriter-part">|<span>&nbsp;</span></span></span></p><p><co=
+de class=3D"language-plaintext hljs" style=3D"text-align: left;">FAILED</co=
+de></p><p><span class=3D"mynah-ui-animation-text-content"><span class=3D"ty=
+pewriter-part"><span>&nbsp;</span></span><span class=3D"typewriter-part">|<=
+span>&nbsp;</span></span></span></p><p><code class=3D"language-plaintext hl=
+js" style=3D"text-align: left;">ERROR</code></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><code class=3D"language-plaintext hljs" style=
+=3D"text-align: left;">ad_group_check_details</code></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">String</span></span></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"mynah-ui-animation-text-conten=
+t"><span class=3D"typewriter-part">Detailed<span>&nbsp;</span></span><span =
+class=3D"typewriter-part">validation<span>&nbsp;</span></span><span class=
+=3D"typewriter-part">message<span>&nbsp;</span></span><span class=3D"typewr=
+iter-part">(dev<span>&nbsp;</span></span><span class=3D"typewriter-part">on=
+ly)</span></span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-7.FinalStatusC=
+heckerLambda">7. Final Status Checker Lambda</h4>
+<p><strong>Function Name</strong>: <code>gts-github-pr-poll-final-status-ch=
+ecker-{env}</code><br><strong>Runtime</strong>: Python 3.12<br><strong>Time=
+out</strong>: 60 seconds<br><strong>Memory</strong>: 256 MB</p>
+<p><strong>Purpose</strong>: Determines overall PASS/FAIL/ERROR status</p>
+<p><strong>Trigger</strong>: Step Function (after parallel checks complete)=
+</p>
+<p><strong>Logic</strong>:</p>
+<pre><code class=3D"language-python">if all checks PASSED:
+    final_status =3D "PASSED"
+elif any check ERROR:
+    final_status =3D "ERROR"
+else:
+    final_status =3D "FAILED"
+</code></pre>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>Reads validation results from DynamoDB</li>
+<li>Applies decision logic</li>
+<li>Updates DynamoDB with final_status</li>
+<li>For regression tests: Compares with human_decision (logic not implement=
+ed yet)</li>
+<li>Invokes Regression Summary Lambda (if regression test)</li>
+</ol>
+<p><strong>Environment Variables</strong>:</p>
+<ul>
+<li><code>DYNAMODB_TABLE</code>: Production table name</li>
+<li><code>REGRESSION_DYNAMODB_TABLE</code>: Regression table name</li>
+<li><code>REGRESSION_SUMMARY_FUNCTION</code>: Regression Summary Lambda nam=
+e</li>
+</ul>
+<p><strong>IAM Permissions</strong>:</p>
+<ul>
+<li>DynamoDB: GetItem, UpdateItem on both tables</li>
+<li>Lambda: InvokeFunction (Regression Summary)</li>
+</ul>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-8.TeamsNotifie=
+rLambda">8. Teams Notifier Lambda</h4>
+<p><strong>Function Name</strong>: <code>gts-github-pr-poll-notifier-{env}<=
+/code><br><strong>Runtime</strong>: Python 3.12<br><strong>Timeout</strong>=
+: 60 seconds<br><strong>Memory</strong>: 256 MB</p>
+<p><strong>Purpose</strong>: Sends notifications to MS Teams channels</p>
+<p><strong>Trigger</strong>: DynamoDB Stream (MODIFY events where execution=
+_status=3DCOMPLETED)</p>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>Receives DynamoDB Stream event</li>
+<li>Validates execution_status changed to COMPLETED</li>
+<li>Validates final_status exists</li>
+<li>Determines routing based on repository and test_run_id</li>
+<li>Builds Teams adaptive card</li>
+<li>Sends notification to appropriate channel</li>
+</ol>
+<p><strong>Channel Routing Logic</strong>:</p>
+<pre><code class=3D"language-python">if test_run_id exists:
+    channel =3D "IAM-PR-Automation-Regression"
+elif "github-pr-poll-poc" in repo_pr:
+    channel =3D "IAM-PR-Automation-Test"
+else:
+    channel =3D "IAM-PR-Automation"
+</code></pre>
+<p><strong>Environment Variables</strong>:</p>
+<ul>
+<li><code>TEAMS_WEBHOOK_URL</code>: Production channel webhook</li>
+<li><code>TEAMS_REGRESSION_WEBHOOK_URL</code>: Regression channel webhook</=
+li>
+<li><code>ENVIRONMENT</code>: dev | prd</li>
+<li><code>GITHUB_PR_TABLE</code>: Production table name</li>
+</ul>
+<p><strong>IAM Permissions</strong>:</p>
+<ul>
+<li>DynamoDB: GetItem (for additional PR details)</li>
+<li>Secrets Manager: GetSecretValue (Teams webhooks)</li>
+</ul>
+<p><strong>Event Source Mapping</strong>:</p>
+<ul>
+<li><strong>Filter</strong>: MODIFY events where <code>execution_status =3D=
+ "COMPLETED"</code></li>
+<li><strong>Batch Size</strong>: 1</li>
+<li><strong>Starting Position</strong>: LATEST</li>
+</ul>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-9.HistoricalPR=
+FetcherLambda">9. Historical PR Fetcher Lambda</h4>
+<p><strong>Function Name</strong>: <code>gts-github-pr-poll-historical-pr-f=
+etcher-{env}</code><br><strong>Runtime</strong>: Python 3.12<br><strong>Tim=
+eout</strong>: 900 seconds (15 minutes)<br><strong>Memory</strong>: 1024 MB=
+<br><strong>VPC</strong>: Enabled (for GitHub Enterprise access)</p>
+<p><strong>Purpose</strong>: Fetches historical PRs for regression testing<=
+/p>
+<p><strong>Trigger</strong>: Manual invocation or PR Poller (for regression=
+ tests)</p>
+<p><strong>Operation Modes</strong>:</p>
+<ol>
+<li><strong>incremental_update</strong>: Fetches and caches historical PRs =
+to S3</li>
+<li><strong>regression_test</strong>: Loads cached PRs and inserts into reg=
+ression table</li>
+</ol>
+<p><strong>Sampling Parameters</strong>:</p>
+<ul>
+<li><code>max_prs</code>: Maximum PRs to fetch (default: unlimited)</li>
+<li><code>decision_filter</code>: APPROVED | REJECTED | ALL</li>
+<li><code>random_seed</code>: Seed for reproducible sampling</li>
+<li><code>repositories</code>: List of repositories to sample from</li>
+<li><code>per_repo_limit</code>: Maximum PRs per repository</li>
+</ul>
+<p><strong>Process (incremental_update)</strong>:</p>
+<ol>
+<li>Fetches closed PRs from GitHub Enterprise</li>
+<li>Parses PR metadata and human decision</li>
+<li>Caches to S3 (organized by repo/year/month)</li>
+<li>Returns cache summary</li>
+</ol>
+<p><strong>Process (regression_test)</strong>:</p>
+<ol>
+<li>Loads cached PRs from S3</li>
+<li>Applies sampling strategy</li>
+<li>Inserts selected PRs into regression table</li>
+<li>Returns test run summary</li>
+</ol>
+<p><strong>Environment Variables</strong>:</p>
+<ul>
+<li><code>HISTORICAL_S3_BUCKET</code>: S3 bucket for PR cache</li>
+<li><code>REGRESSION_DYNAMODB_TABLE</code>: Regression table name</li>
+<li><code>GITHUB_API_BASE_URL</code>: GitHub Enterprise API URL</li>
+<li><code>ENVIRONMENT</code>: dev | prd</li>
+</ul>
+<p><strong>IAM Permissions</strong>:</p>
+<ul>
+<li>S3: GetObject, PutObject on historical bucket</li>
+<li>DynamoDB: PutItem on regression table</li>
+<li>Secrets Manager: GetSecretValue (GitHub token)</li>
+<li>VPC: Network interface management</li>
+</ul>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-10.RegressionS=
+ummaryLambda">10. Regression Summary Lambda</h4>
+<p><strong>Function Name</strong>: <code>gts-github-pr-poll-regression-summ=
+ary-{env}</code><br><strong>Runtime</strong>: Python 3.12<br><strong>Timeou=
+t</strong>: 60 seconds<br><strong>Memory</strong>: 256 MB</p>
+<p><strong>Purpose</strong>: Aggregates regression test results and calcula=
+tes accuracy</p>
+<p><strong>Trigger</strong>: Final Status Checker Lambda (for regression te=
+sts)</p>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>Queries all results for test_run_id</li>
+<li>Calculates accuracy metrics:=20
+<ul>
+<li>Total PRs tested</li>
+<li>MATCH count (automation agrees with human)</li>
+<li>MISMATCH count (automation disagrees with human)</li>
+<li>Accuracy percentage</li>
+<li>False positive rate</li>
+<li>False negative rate</li>
+</ul></li>
+<li>Sends summary to Teams regression channel</li>
+</ol>
+<p><strong>Metrics Calculated</strong>:</p>
+<pre><code class=3D"language-python">accuracy =3D (MATCH_count / total_PRs)=
+ * 100
+false_positive_rate =3D (PASSED_but_REJECTED / total_REJECTED) * 100
+false_negative_rate =3D (FAILED_but_APPROVED / total_APPROVED) * 100
+</code></pre>
+<p><strong>Environment Variables</strong>:</p>
+<ul>
+<li><code>REGRESSION_DYNAMODB_TABLE</code>: Regression table name</li>
+<li><code>TEAMS_REGRESSION_WEBHOOK_URL</code>: Regression channel webhook</=
+li>
+<li><code>ENVIRONMENT</code>: dev | prd</li>
+</ul>
+<p><strong>IAM Permissions</strong>:</p>
+<ul>
+<li>DynamoDB: Query on regression table</li>
+<li>Secrets Manager: GetSecretValue (Teams webhook)</li>
+</ul>
+<hr>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-StepFunctions"=
+>Step Functions</h3>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Production/Tes=
+tStepFunction">Production/Test Step Function</h4>
+<p><strong>Name</strong>: <code>gts-github-pr-poll-iam-pr-workflow-{env}</c=
+ode><br><strong>Definition File</strong>: <code>definition-{env}.json</code=
+> (dev or prd)</p>
+<p><strong>States</strong>:</p>
+<ol>
+<li><strong>SetExecutionRunning</strong>: Updates execution_status to RUNNI=
+NG</li>
+<li><strong>ParallelChecks</strong>: Runs three validation checks in parall=
+el=20
+<ul>
+<li>SecurityScanStep =E2=86=92 UpdateSecurityScanResult</li>
+<li>ComplianceCheckStep =E2=86=92 UpdateComplianceCheckResult</li>
+<li>IAMBoundaryCheckStep =E2=86=92 UpdateIAMBoundaryCheckResult</li>
+</ul></li>
+<li><strong>SetFinalStatus</strong>: Invokes Final Status Checker Lambda</l=
+i>
+<li><strong>WorkflowComplete</strong>: Updates execution_status to COMPLETE=
+D</li>
+<li><strong>WorkflowSuccess</strong>: Terminal success state</li>
+</ol>
+<p><strong>Error Handling</strong>:</p>
+<ul>
+<li>Retry logic on all Lambda invocations (3 attempts, exponential backoff)=
+</li>
+<li>Catch blocks update DynamoDB with ERROR status</li>
+<li>SetExecutionFailed state for catastrophic failures</li>
+</ul>
+<p><strong>Input</strong>: DynamoDB Stream event from production table</p>
+<p><strong>Output</strong>: Updated DynamoDB record with all validation res=
+ults</p>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-RegressionStep=
+Function">Regression Step Function</h4>
+<p><strong>Name</strong>: <code>gts-github-pr-poll-iam-pr-regression-workfl=
+ow-{env}</code><br><strong>Definition File</strong>: <code>definition-regre=
+ssion.json</code></p>
+<p><strong>Key Differences from Production</strong>:</p>
+<ul>
+<li>Uses composite key (test_run_id + pr_id)</li>
+<li>Accepts pr_data from S3 cache (not DynamoDB stream)</li>
+<li>Sets regression_mode flag for Lambda functions</li>
+<li>Uses different field names (security_status vs security_scan_endstatus)=
+</li>
+<li>Updates automated_decision instead of final_status</li>
+</ul>
+<p><strong>States</strong>: Same structure as production workflow</p>
+<p><strong>Input</strong>: Regression test data with pr_data from S3</p>
+<p><strong>Output</strong>: Updated regression table record with test resul=
+ts</p>
+<hr>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-S3Buckets">S3 =
+Buckets</h3>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-HistoricalPRCa=
+cheBucket">Historical PR Cache Bucket</h4>
+<p><strong>Name</strong>: <code>iam-automation-historical-prs-{env}-{accoun=
+t_id}</code><br><strong>Purpose</strong>: Stores cached historical PR data<=
+/p>
+<p><strong>Structure</strong>:</p>
+<pre><code>s3://bucket-name/
+=E2=94=9C=E2=94=80=E2=94=80 Centralized-IAM-Accounts/
+=E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 idc-base-roles-prod/
+=E2=94=82   =E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 2024/
+=E2=94=82   =E2=94=82   =E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 10/
+=E2=94=82   =E2=94=82   =E2=94=82   =E2=94=82   =E2=94=9C=E2=94=80=E2=94=80=
+ pr-123.json
+=E2=94=82   =E2=94=82   =E2=94=82   =E2=94=82   =E2=94=9C=E2=94=80=E2=94=80=
+ pr-124.json
+=E2=94=82   =E2=94=82   =E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 11/
+=E2=94=82   =E2=94=82   =E2=94=82   =E2=94=82   =E2=94=9C=E2=94=80=E2=94=80=
+ pr-125.json
+=E2=94=82   =E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 2025/
+=E2=94=82   =E2=94=82   =E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 01/
+=E2=94=82   =E2=94=82   =E2=94=82   =E2=94=82   =E2=94=9C=E2=94=80=E2=94=80=
+ pr-126.json
+</code></pre>
+<p><strong>Lifecycle Policy</strong>: 90-day retention</p>
+<p><strong>Encryption</strong>: AWS-managed (SSE-S3)</p>
+<p><strong>Access</strong>: Historical PR Fetcher Lambda only</p>
+<hr>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-EventBridgeRul=
+es">EventBridge Rules</h3>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-PRPollingSched=
+ule">PR Polling Schedule</h4>
+<p><strong>Name</strong>: <code>github-pr-polling-{env}</code><br><strong>S=
+chedule</strong>: <code>rate(3 minutes)</code><br><strong>Target</strong>: =
+PR Poller Lambda<br><strong>Purpose</strong>: Triggers PR discovery every 3=
+ minutes</p>
+<hr>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-CloudWatchLogG=
+roups">CloudWatch Log Groups</h3>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<thead>
+<tr>
+<th class=3D"confluenceTh">Log Group</th>
+<th class=3D"confluenceTh">Retention</th>
+<th class=3D"confluenceTh">Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><code>/aws/lambda/gts-github-pr-poll-poller-{env=
+}</code></td>
+<td class=3D"confluenceTd">30 days</td>
+<td class=3D"confluenceTd">PR polling logs</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>/aws/lambda/gts-github-pr-poll-stepfunctio=
+n-trigger-{env}</code></td>
+<td class=3D"confluenceTd">30 days</td>
+<td class=3D"confluenceTd">Step Function trigger logs</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>/aws/lambda/gts-github-pr-poll-security-sc=
+an-{env}</code></td>
+<td class=3D"confluenceTd">30 days</td>
+<td class=3D"confluenceTd">Security validation logs</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>/aws/lambda/gts-github-pr-poll-compliance-=
+check-{env}</code></td>
+<td class=3D"confluenceTd">30 days</td>
+<td class=3D"confluenceTd">Compliance validation logs</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>/aws/lambda/gts-github-pr-poll-iam-boundar=
+y-checker-{env}</code></td>
+<td class=3D"confluenceTd">30 days</td>
+<td class=3D"confluenceTd">Boundary check logs</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>/aws/lambda/gts-github-pr-poll-final-statu=
+s-checker-{env}</code></td>
+<td class=3D"confluenceTd">30 days</td>
+<td class=3D"confluenceTd">Final status logs</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>/aws/lambda/gts-github-pr-poll-notifier-{e=
+nv}</code></td>
+<td class=3D"confluenceTd">30 days</td>
+<td class=3D"confluenceTd">Teams notification logs</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>/aws/lambda/gts-github-pr-poll-historical-=
+pr-fetcher-{env}</code></td>
+<td class=3D"confluenceTd">30 days</td>
+<td class=3D"confluenceTd">Historical PR fetcher logs</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>/aws/lambda/gts-github-pr-poll-regression-=
+summary-{env}</code></td>
+<td class=3D"confluenceTd">30 days</td>
+<td class=3D"confluenceTd">Regression summary logs</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>/aws/vendedlogs/states/gts-github-pr-poll-=
+iam-pr-workflow-{env}</code></td>
+<td class=3D"confluenceTd">30 days</td>
+<td class=3D"confluenceTd">Production Step Function logs</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><code>/aws/vendedlogs/states/gts-github-pr-poll-=
+iam-pr-regression-workflow-{env}</code></td>
+<td class=3D"confluenceTd">30 days</td>
+<td class=3D"confluenceTd">Regression Step Function logs</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-ProductionWork=
+flow">Production Workflow</h2>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Overview.1">Ov=
+erview</h3>
+<p>The production workflow validates new PRs from IAM repositories in real-=
+time.</p>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-ProductionWork=
+flowDiagram">Production Workflow Diagram</h3>
+<pre><code>=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82                    PRODUCTION PR WORKFLOW                        =
+   =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+
+Step 1: PR Creation (T+0)
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  Developer   =E2=94=82
+=E2=94=82  Creates PR  =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+       =E2=94=82
+       =E2=86=93
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  GitHub Enterprise   =E2=94=82
+=E2=94=82  PR #250 (OPEN)      =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+
+Step 2: PR Detection (T+0 to T+180 seconds)
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90      =
+   =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82 EventBridge  =E2=94=82=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=96=B6=E2=94=82   PR Poller Lambda   =E2=
+=94=82
+=E2=94=82 (3 min rate) =E2=94=82         =E2=94=82  Polls GitHub API    =E2=
+=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98      =
+   =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+                                    =E2=94=82
+                                    =E2=94=82 INSERT
+                                    =E2=86=93
+                         =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=90
+                         =E2=94=82  DynamoDB Table      =E2=94=82
+                         =E2=94=82  github-open-prs-dev =E2=94=82
+                         =E2=94=82  repo_pr: "...#250"  =E2=94=82
+                         =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=98
+
+Step 3: Workflow Trigger (T+2-3 seconds)
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90         =
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  DynamoDB Stream     =E2=94=82=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=96=B6=E2=94=82  SF Trigger Lambd=
+a   =E2=94=82
+=E2=94=82  INSERT Event        =E2=94=82         =E2=94=82  Starts executio=
+n    =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98         =
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+                                            =E2=94=82
+                                            =E2=94=82 StartExecution
+                                            =E2=86=93
+                         =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+                         =E2=94=82  Step Function                   =E2=94=
+=82
+                         =E2=94=82  process-iam-pr-workflow-dev     =E2=94=
+=82
+                         =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+
+Step 4: Set Execution Running (T+3 seconds)
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=90
+=E2=94=82  Step Function State:            =E2=94=82
+=E2=94=82  SetExecutionRunning             =E2=94=82
+=E2=94=82                                  =E2=94=82
+=E2=94=82  UPDATE DynamoDB:                =E2=94=82
+=E2=94=82  execution_status =3D "RUNNING"    =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=98
+
+Step 5: Parallel Validation (T+4 to T+8 seconds)
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  Step Function State: ParallelChecks                         =E2=
+=94=82
+=E2=94=82                                                              =E2=
+=94=82
+=E2=94=82  =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=90  =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90  =E2=94=8C=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90   =E2=94=82
+=E2=94=82  =E2=94=82  Security Scan  =E2=94=82  =E2=94=82 Compliance Check=
+=E2=94=82  =E2=94=82 IAM Boundary=E2=94=82   =E2=94=82
+=E2=94=82  =E2=94=82     Lambda      =E2=94=82  =E2=94=82     Lambda      =
+=E2=94=82  =E2=94=82   Checker   =E2=94=82   =E2=94=82
+=E2=94=82  =E2=94=82                 =E2=94=82  =E2=94=82                 =
+=E2=94=82  =E2=94=82   Lambda    =E2=94=82   =E2=94=82
+=E2=94=82  =E2=94=82  Validates:     =E2=94=82  =E2=94=82  Validates:     =
+=E2=94=82  =E2=94=82             =E2=94=82   =E2=94=82
+=E2=94=82  =E2=94=82  - Syntax       =E2=94=82  =E2=94=82  - Org policies =
+=E2=94=82  =E2=94=82  Validates: =E2=94=82   =E2=94=82
+=E2=94=82  =E2=94=82  - Permissions  =E2=94=82  =E2=94=82  - Tags         =
+=E2=94=82  =E2=94=82  - Boundary =E2=94=82   =E2=94=82
+=E2=94=82  =E2=94=82  - Wildcards    =E2=94=82  =E2=94=82  - Naming       =
+=E2=94=82  =E2=94=82  - Effective=E2=94=82   =E2=94=82
+=E2=94=82  =E2=94=82  - Cross-acct   =E2=94=82  =E2=94=82  - Limits       =
+=E2=94=82  =E2=94=82    perms    =E2=94=82   =E2=94=82
+=E2=94=82  =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=98  =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98  =E2=94=94=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98   =E2=94=82
+=E2=94=82           =E2=94=82                    =E2=94=82                 =
+  =E2=94=82         =E2=94=82
+=E2=94=82           =E2=94=82 UPDATE             =E2=94=82 UPDATE          =
+  =E2=94=82 UPDATE  =E2=94=82
+=E2=94=82           =E2=86=93                    =E2=86=93                 =
+  =E2=86=93         =E2=94=82
+=E2=94=82  =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90    =E2=
+=94=82
+=E2=94=82  =E2=94=82  DynamoDB Updates:                                   =
+=E2=94=82    =E2=94=82
+=E2=94=82  =E2=94=82  security_scan_endstatus =3D "PASSED"                 =
+ =E2=94=82    =E2=94=82
+=E2=94=82  =E2=94=82  compliance_check_endstatus =3D "PASSED"              =
+ =E2=94=82    =E2=94=82
+=E2=94=82  =E2=94=82  iam_boundary_check_endstatus =3D "PASSED"            =
+ =E2=94=82    =E2=94=82
+=E2=94=82  =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98    =E2=
+=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+
+Step 6: Final Status Determination (T+9 seconds)
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=90
+=E2=94=82  Step Function State:            =E2=94=82
+=E2=94=82  SetFinalStatus                  =E2=94=82
+=E2=94=82                                  =E2=94=82
+=E2=94=82  Invokes:                        =E2=94=82
+=E2=94=82  Final Status Checker Lambda     =E2=94=82
+=E2=94=82                                  =E2=94=82
+=E2=94=82  Logic:                          =E2=94=82
+=E2=94=82  if all PASSED =E2=86=92 "PASSED"        =E2=94=82
+=E2=94=82  if any ERROR =E2=86=92 "ERROR"          =E2=94=82
+=E2=94=82  else =E2=86=92 "FAILED"                 =E2=94=82
+=E2=94=82                                  =E2=94=82
+=E2=94=82  Result: final_status =3D "PASSED" =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=98
+
+Step 7: Workflow Complete (T+10 seconds)
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=90
+=E2=94=82  Step Function State:            =E2=94=82
+=E2=94=82  WorkflowComplete                =E2=94=82
+=E2=94=82                                  =E2=94=82
+=E2=94=82  UPDATE DynamoDB:                =E2=94=82
+=E2=94=82  execution_status =3D "COMPLETED"  =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=98
+           =E2=94=82
+           =E2=94=82 MODIFY Event
+           =E2=86=93
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  DynamoDB Stream     =E2=94=82
+=E2=94=82  MODIFY Event        =E2=94=82
+=E2=94=82  execution_status    =E2=94=82
+=E2=94=82  changed to          =E2=94=82
+=E2=94=82  "COMPLETED"         =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+           =E2=94=82
+           =E2=94=82 Triggers
+           =E2=86=93
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  Teams Notifier      =E2=94=82
+=E2=94=82  Lambda              =E2=94=82
+=E2=94=82                      =E2=94=82
+=E2=94=82  Routing Logic:      =E2=94=82
+=E2=94=82  - Check test_run_id =E2=94=82
+=E2=94=82  - Check repo name   =E2=94=82
+=E2=94=82  - Route to channel  =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+           =E2=94=82
+           =E2=86=93
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  MS Teams Channel     =E2=94=82
+=E2=94=82  IAM-PR-Automation    =E2=94=82
+=E2=94=82                       =E2=94=82
+=E2=94=82  =E2=9C=85 PR #250           =E2=94=82
+=E2=94=82  All Checks Passed    =E2=94=82
+=E2=94=82                       =E2=94=82
+=E2=94=82  Security: =E2=9C=85 PASSED  =E2=94=82
+=E2=94=82  Compliance: =E2=9C=85 PASSED=E2=94=82
+=E2=94=82  Boundary: =E2=9C=85 PASSED  =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+
+Total Time: ~10-15 seconds (after PR detection)
+</code></pre>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-ProductionWork=
+flowSteps">Production Workflow Steps</h3>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Step1:PRCreati=
+on(T+0)">Step 1: PR Creation (T+0)</h4>
+<p><strong>Action</strong>: Developer creates PR in GitHub Enterprise</p>
+<p><strong>Example</strong>:</p>
+<ul>
+<li>Repository: <code>Centralized-IAM-Accounts/idc-gts-roles-prod</code></l=
+i>
+<li>PR Number: 250</li>
+<li>Title: "GTBT-7000: Add new IAM role for data analytics"</li>
+<li>Author: jsmith</li>
+<li>Status: OPEN</li>
+</ul>
+<p><strong>DynamoDB State</strong>: None (PR not detected yet)</p>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Step2:PRDetect=
+ion(T+0toT+180seconds)">Step 2: PR Detection (T+0 to T+180 seconds)</h4>
+<p><strong>Action</strong>: PR Poller Lambda discovers new PR</p>
+<p><strong>Trigger</strong>: EventBridge rule (every 3 minutes)</p>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>EventBridge invokes PR Poller Lambda</li>
+<li>Lambda polls GitHub Enterprise API for each repository</li>
+<li>Discovers PR #250 (status: OPEN)</li>
+<li>Inserts new record into DynamoDB</li>
+</ol>
+<p><strong>DynamoDB INSERT</strong>:</p>
+<pre><code class=3D"language-json">{
+  "repo_pr": "Centralized-IAM-Accounts/idc-gts-roles-prod#250",
+  "repo": "Centralized-IAM-Accounts/idc-gts-roles-prod",
+  "pr_number": 250,
+  "title": "GTBT-7000: Add new IAM role for data analytics",
+  "author": "jsmith",
+  "created_at": "2025-11-25T10:00:00Z",
+  "updated_at": "2025-11-25T10:00:00Z",
+  "last_scanned": "2025-11-25T10:02:30Z",
+  "url": "https://git.us.aegon.com/Centralized-IAM-Accounts/idc-gts-roles-p=
+rod/pull/250"
+}
+</code></pre>
+<p><strong>Important</strong>: INSERT event does NOT trigger Teams Notifier=
+ (filter requires MODIFY with execution_status=3DCOMPLETED)</p>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Step3:Workflow=
+Trigger(T+2-3seconds)">Step 3: Workflow Trigger (T+2-3 seconds)</h4>
+<p><strong>Action</strong>: DynamoDB Stream triggers Step Function</p>
+<p><strong>Trigger</strong>: DynamoDB Stream INSERT event</p>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>Stream event delivered to Step Function Trigger Lambda</li>
+<li>Lambda checks idempotency (execution_id not present)</li>
+<li>Lambda checks if already processed (final_status not present)</li>
+<li>Lambda starts Step Function execution</li>
+<li>Lambda updates DynamoDB with execution metadata</li>
+</ol>
+<p><strong>DynamoDB UPDATE</strong>:</p>
+<pre><code class=3D"language-json">{
+  "repo_pr": "Centralized-IAM-Accounts/idc-gts-roles-prod#250",
+  "execution_id": "abc123-def456-ghi789",
+  "execution_status": "RUNNING",
+  "execution_timestamp": "2025-11-25T10:02:33Z"
+}
+</code></pre>
+<p><strong>Important</strong>: This UPDATE creates MODIFY event, but Teams =
+Notifier does NOT trigger (execution_status=3DRUNNING, not COMPLETED)</p>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Step4:SetExecu=
+tionRunning(T+3seconds)">Step 4: Set Execution Running (T+3 seconds)</h4>
+<p><strong>Action</strong>: Step Function updates execution status</p>
+<p><strong>State</strong>: SetExecutionRunning</p>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>Step Function reads repo_pr from input</li>
+<li>Updates DynamoDB with execution_status=3DRUNNING</li>
+<li>Preserves original input for downstream states (ResultPath)</li>
+</ol>
+<p><strong>DynamoDB UPDATE</strong>:</p>
+<pre><code class=3D"language-json">{
+  "execution_status": "RUNNING",
+  "execution_timestamp": "2025-11-25T10:02:33Z"
+}
+</code></pre>
+<p><strong>Important</strong>: This UPDATE creates MODIFY event, but Teams =
+Notifier does NOT trigger (execution_status=3DRUNNING)</p>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Step5:Parallel=
+Validation(T+4toT+8seconds)">Step 5: Parallel Validation (T+4 to T+8 second=
+s)</h4>
+<p><strong>Action</strong>: Three validation checks run in parallel</p>
+<p><strong>State</strong>: ParallelChecks</p>
+<p><strong>Branch 1: Security Scan</strong></p>
+<ul>
+<li>Invokes Security Scan Lambda</li>
+<li>Validates IAM policy security</li>
+<li>Returns: <code>{status: "PASSED", details: {...}}</code></li>
+<li>Updates DynamoDB: <code>security_scan_endstatus =3D "PASSED"</code></li=
+>
+</ul>
+<p><strong>Branch 2: Compliance Check</strong></p>
+<ul>
+<li>Invokes Compliance Check Lambda</li>
+<li>Validates IAM policy compliance</li>
+<li>Returns: <code>{status: "PASSED", details: {...}}</code></li>
+<li>Updates DynamoDB: <code>compliance_check_endstatus =3D "PASSED"</code><=
+/li>
+</ul>
+<p><strong>Branch 3: IAM Boundary Check</strong></p>
+<ul>
+<li>Invokes IAM Boundary Checker Lambda</li>
+<li>Validates boundary policies</li>
+<li>Returns: <code>{status: "PASSED", details: {...}}</code></li>
+<li>Updates DynamoDB: <code>iam_boundary_check_endstatus =3D "PASSED"</code=
+></li>
+</ul>
+<p><strong>DynamoDB State After Parallel Checks</strong>:</p>
+<pre><code class=3D"language-json">{
+  "repo_pr": "Centralized-IAM-Accounts/idc-gts-roles-prod#250",
+  "execution_status": "RUNNING",
+  "security_scan_endstatus": "PASSED",
+  "compliance_check_endstatus": "PASSED",
+  "iam_boundary_check_endstatus": "PASSED"
+}
+</code></pre>
+<p><strong>Important</strong>: These UPDATEs create MODIFY events, but Team=
+s Notifier does NOT trigger (execution_status=3DRUNNING)</p>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Step6:FinalSta=
+tusDetermination(T+9seconds)">Step 6: Final Status Determination (T+9 secon=
+ds)</h4>
+<p><strong>Action</strong>: Final Status Checker determines overall result<=
+/p>
+<p><strong>State</strong>: SetFinalStatus</p>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>Step Function invokes Final Status Checker Lambda</li>
+<li>Lambda reads validation results from DynamoDB</li>
+<li>Lambda applies decision logic:<pre><code class=3D"language-python">if a=
+ll checks PASSED:
+    final_status =3D "PASSED"
+elif any check ERROR:
+    final_status =3D "ERROR"
+else:
+    final_status =3D "FAILED"
+</code></pre></li>
+<li>Lambda updates DynamoDB with final_status</li>
+<li>Lambda returns result to Step Function</li>
+</ol>
+<p><strong>DynamoDB UPDATE</strong>:</p>
+<pre><code class=3D"language-json">{
+  "final_status": "PASSED"
+}
+</code></pre>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Step7:Workflow=
+Complete(T+10seconds)">Step 7: Workflow Complete (T+10 seconds)</h4>
+<p><strong>Action</strong>: Step Function marks execution complete</p>
+<p><strong>State</strong>: WorkflowComplete</p>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>Step Function updates DynamoDB</li>
+<li>Sets execution_status =3D "COMPLETED"</li>
+<li>Transitions to WorkflowSuccess state</li>
+</ol>
+<p><strong>DynamoDB UPDATE (FINAL)</strong>:</p>
+<pre><code class=3D"language-json">{
+  "repo_pr": "Centralized-IAM-Accounts/idc-gts-roles-prod#250",
+  "title": "GTBT-7000: Add new IAM role for data analytics",
+  "author": "jsmith",
+  "execution_id": "abc123-def456-ghi789",
+  "execution_status": "COMPLETED",
+  "execution_timestamp": "2025-11-25T10:02:33Z",
+  "security_scan_endstatus": "PASSED",
+  "compliance_check_endstatus": "PASSED",
+  "iam_boundary_check_endstatus": "PASSED",
+  "final_status": "PASSED",
+  "last_scanned": "2025-11-25T10:02:30Z"
+}
+</code></pre>
+<p><strong>Important</strong>: This UPDATE creates MODIFY event where:</p>
+<ul>
+<li>OldImage.execution_status =3D "RUNNING"</li>
+<li>NewImage.execution_status =3D "COMPLETED"</li>
+<li>NewImage.final_status =3D "PASSED"</li>
+</ul>
+<p><strong>Teams Notifier Trigger</strong>: =E2=9C=85 YES</p>
+<ul>
+<li>Filter matches: eventName=3DMODIFY AND execution_status=3DCOMPLETED</li=
+>
+<li>Lambda validates: execution_status changed to COMPLETED</li>
+<li>Lambda validates: final_status exists</li>
+</ul>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Step8:TeamsNot=
+ification(T+11seconds)">Step 8: Teams Notification (T+11 seconds)</h4>
+<p><strong>Action</strong>: Teams Notifier sends notification</p>
+<p><strong>Trigger</strong>: DynamoDB Stream MODIFY event</p>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>Stream event delivered to Teams Notifier Lambda</li>
+<li>Lambda validates execution_status changed to COMPLETED</li>
+<li>Lambda validates final_status exists</li>
+<li>Lambda determines routing:=20
+<ul>
+<li>No test_run_id =E2=86=92 Not regression test</li>
+<li>Repository =3D "idc-gts-roles-prod" =E2=86=92 Production channel</li>
+</ul></li>
+<li>Lambda builds Teams adaptive card</li>
+<li>Lambda sends notification</li>
+</ol>
+<p><strong>Teams Channel</strong>: IAM-PR-Automation (production)</p>
+<p><strong>Notification Content</strong>:</p>
+<pre><code>=E2=9C=85 PR #250 - All Checks Passed
+
+Repository: Centralized-IAM-Accounts/idc-gts-roles-prod
+Author: jsmith
+Title: GTBT-7000: Add new IAM role for data analytics
+
+Validation Results:
+=E2=9C=85 Security Scan: PASSED
+=E2=9C=85 Compliance Check: PASSED
+=E2=9C=85 IAM Boundary Check: PASSED
+
+Overall Status: =E2=9C=85 PASSED
+
+[View PR](https://git.us.aegon.com/Centralized-IAM-Accounts/idc-gts-roles-p=
+rod/pull/250)
+</code></pre>
+<hr>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-ProductionWork=
+flowSummary">Production Workflow Summary</h3>
+<p><strong>Total Duration</strong>: ~10-15 seconds (after PR detection)</p>
+<p><strong>Key Points</strong>:</p>
+<ul>
+<li>PR detection happens within 3 minutes (polling interval)</li>
+<li>Validation checks run in parallel for speed</li>
+<li>Teams notification sent only when execution completes</li>
+<li>Loop prevention via event filters and idempotency checks</li>
+</ul>
+<p><strong>Possible Outcomes</strong>:</p>
+<ul>
+<li>=E2=9C=85 <strong>PASSED</strong>: All validation checks passed</li>
+<li>=E2=9D=8C <strong>FAILED</strong>: One or more validation checks failed=
+</li>
+<li>=E2=9A=A0=EF=B8=8F <strong>ERROR</strong>: System error during validati=
+on</li>
+</ul>
+<hr>
+<h2 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-TestWorkflow">=
+Test Workflow</h2>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Overview.2">Ov=
+erview</h3>
+<p>The test workflow validates PRs from the POC repository (<code>CSET/gith=
+ub-pr-poll-poc</code>). It follows the same process as production but route=
+s notifications to a different Teams channel.</p>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-KeyDifferences=
+fromProduction">Key Differences from Production</h3>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<thead>
+<tr>
+<th class=3D"confluenceTh">Aspect</th>
+<th class=3D"confluenceTh">Production</th>
+<th class=3D"confluenceTh">Test</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><strong>Repository</strong></td>
+<td class=3D"confluenceTd">idc-*-roles-prod</td>
+<td class=3D"confluenceTd">github-pr-poll-poc</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Expected Result</strong></td>
+<td class=3D"confluenceTd">PASSED (has IAM policies)</td>
+<td class=3D"confluenceTd">FAILED (no IAM policies)</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Teams Channel</strong></td>
+<td class=3D"confluenceTd">IAM-PR-Automation</td>
+<td class=3D"confluenceTd">IAM-PR-Automation-Test</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><strong>Purpose</strong></td>
+<td class=3D"confluenceTd">Validate real PRs</td>
+<td class=3D"confluenceTd">Test system functionality</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-TestWorkflowSt=
+eps">Test Workflow Steps</h3>
+<p>Steps 1-7 are identical to production workflow.</p>
+<p><strong>Step 8: Teams Notification (Different Channel)</strong></p>
+<p><strong>Routing Logic</strong>:</p>
+<pre><code class=3D"language-python">if "github-pr-poll-poc" in repo_pr:
+    channel =3D "IAM-PR-Automation-Test"
+</code></pre>
+<p><strong>Teams Channel</strong>: IAM-PR-Automation-Test</p>
+<p><strong>Typical Notification</strong> (POC repo has no IAM policies):</p=
+>
+<pre><code>=E2=9D=8C PR #22 - Checks Failed
+
+Repository: CSET/github-pr-poll-poc
+Author: asmith10
+Title: Test: Loop Fix Validation
+
+Validation Results:
+=E2=9D=8C Security Scan: FAILED (No IAM policy files found)
+=E2=9D=8C Compliance Check: FAILED (No IAM policy files found)
+=E2=9C=85 IAM Boundary Check: PASSED (No policies to check)
+
+Overall Status: =E2=9D=8C FAILED
+
+[View PR](https://git.us.aegon.com/CSET/github-pr-poll-poc/pull/22)
+</code></pre>
+<hr>
+<h2 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-RegressionTest=
+ingWorkflow">Regression Testing Workflow</h2>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Overview.3">Ov=
+erview</h3>
+<p>The regression testing workflow validates automation accuracy by replayi=
+ng historical PRs through the validation pipeline and comparing results wit=
+h human decisions.</p>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-RegressionTest=
+ingWorkflowDiagram">Regression Testing Workflow Diagram</h3>
+<pre><code>=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82                  REGRESSION TESTING WORKFLOW                     =
+   =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+
+Step 1: Test Initiation (T+0)
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  Test Script or  =E2=94=82
+=E2=94=82  Manual Trigger  =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=98
+         =E2=94=82
+         =E2=86=93
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  Historical PR Fetcher   =E2=94=82
+=E2=94=82  Lambda                  =E2=94=82
+=E2=94=82                          =E2=94=82
+=E2=94=82  Mode: incremental_update=E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=98
+         =E2=94=82
+         =E2=94=82 Fetch closed PRs
+         =E2=86=93
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  GitHub Enterprise       =E2=94=82
+=E2=94=82  API (Historical PRs)    =E2=94=82
+=E2=94=82  PR #180 (merged)        =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=98
+         =E2=94=82
+         =E2=94=82 Cache
+         =E2=86=93
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  S3 Bucket               =E2=94=82
+=E2=94=82  iam-automation-         =E2=94=82
+=E2=94=82  historical-prs-dev      =E2=94=82
+=E2=94=82                          =E2=94=82
+=E2=94=82  Key: repo/year/month/   =E2=94=82
+=E2=94=82       pr-180.json        =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=98
+
+Step 2: Regression Test Trigger (T+1 second)
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  Historical PR Fetcher   =E2=94=82
+=E2=94=82  Lambda                  =E2=94=82
+=E2=94=82                          =E2=94=82
+=E2=94=82  Mode: regression_test   =E2=94=82
+=E2=94=82  - Load from S3          =E2=94=82
+=E2=94=82  - Apply sampling        =E2=94=82
+=E2=94=82  - Insert to DynamoDB    =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=98
+         =E2=94=82
+         =E2=94=82 INSERT
+         =E2=86=93
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  DynamoDB Table                      =E2=94=82
+=E2=94=82  github-prs-regression-test-dev      =E2=94=82
+=E2=94=82                                      =E2=94=82
+=E2=94=82  test_run_id: "test-run-2025-..."    =E2=94=82
+=E2=94=82  pr_id: "...#180"                    =E2=94=82
+=E2=94=82  human_decision: "APPROVED"          =E2=94=82
+=E2=94=82  expected_result: "PASSED"           =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+
+Step 3: Workflow Trigger (T+2 seconds)
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90         =
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  DynamoDB Stream     =E2=94=82=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=96=B6=E2=94=82  SF Trigger Lambd=
+a   =E2=94=82
+=E2=94=82  INSERT Event        =E2=94=82         =E2=94=82  (Regression mod=
+e)   =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98         =
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+                                            =E2=94=82
+                                            =E2=94=82 StartExecution
+                                            =E2=86=93
+                         =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=90
+                         =E2=94=82  Step Function                       =E2=
+=94=82
+                         =E2=94=82  process-iam-pr-regression-          =E2=
+=94=82
+                         =E2=94=82  workflow-dev                        =E2=
+=94=82
+                         =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=98
+
+Steps 4-7: Same as Production (with regression table)
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  SetExecutionRunning =E2=86=92 ParallelChecks =E2=86=92 SetFinalS=
+tatus       =E2=94=82
+=E2=94=82  =E2=86=92 WorkflowComplete                                      =
+    =E2=94=82
+=E2=94=82                                                              =E2=
+=94=82
+=E2=94=82  Uses: github-prs-regression-test-dev table                  =E2=
+=94=82
+=E2=94=82  Fields: security_status, compliance_status,                 =E2=
+=94=82
+=E2=94=82          iam_boundary_status, automated_decision             =E2=
+=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+
+Step 8: Results Comparison (not fully implemented) (T+10 seconds)
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=90
+=E2=94=82  Final Status Checker Lambda     =E2=94=82
+=E2=94=82                                  =E2=94=82
+=E2=94=82  Compares:                       =E2=94=82
+=E2=94=82  automated_decision =3D "PASSED"   =E2=94=82
+=E2=94=82  human_decision =3D "APPROVED"     =E2=94=82
+=E2=94=82  expected_result =3D "PASSED"      =E2=94=82
+=E2=94=82                                  =E2=94=82
+=E2=94=82  Result: test_result =3D "MATCH"   =E2=94=82
+=E2=94=82                                  =E2=94=82
+=E2=94=82  Invokes: Regression Summary     =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=98
+           =E2=94=82
+           =E2=86=93
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=90
+=E2=94=82  Regression Summary Lambda       =E2=94=82
+=E2=94=82                                  =E2=94=82
+=E2=94=82  Aggregates all test results:    =E2=94=82
+=E2=94=82  - Total PRs: 50                 =E2=94=82
+=E2=94=82  - MATCH: 45 (90%)               =E2=94=82
+=E2=94=82  - MISMATCH: 5 (10%)             =E2=94=82
+=E2=94=82  - False Positive: 2             =E2=94=82
+=E2=94=82  - False Negative: 3             =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=98
+           =E2=94=82
+           =E2=94=82 MODIFY Event
+           =E2=86=93
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  DynamoDB Stream     =E2=94=82
+=E2=94=82  MODIFY Event        =E2=94=82
+=E2=94=82  execution_status    =E2=94=82
+=E2=94=82  changed to          =E2=94=82
+=E2=94=82  "COMPLETED"         =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+           =E2=94=82
+           =E2=94=82 Triggers
+           =E2=86=93
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  Teams Notifier      =E2=94=82
+=E2=94=82  Lambda              =E2=94=82
+=E2=94=82                      =E2=94=82
+=E2=94=82  Routing Logic:      =E2=94=82
+=E2=94=82  - Detects test_run_id=E2=94=82
+=E2=94=82  - Routes to         =E2=94=82
+=E2=94=82    regression channel=E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=AC=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+           =E2=94=82
+           =E2=86=93
+=E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+=E2=94=82  MS Teams Channel            =E2=94=82
+=E2=94=82  IAM-PR-Automation-Regression=E2=94=82
+=E2=94=82                              =E2=94=82
+=E2=94=82  =E2=9C=85 Regression Test Complete =E2=94=82
+=E2=94=82                              =E2=94=82
+=E2=94=82  Test Run: test-run-2025-... =E2=94=82
+=E2=94=82  Total PRs: 50               =E2=94=82
+=E2=94=82  Accuracy: 90%               =E2=94=82
+=E2=94=82  MATCH: 45                   =E2=94=82
+=E2=94=82  MISMATCH: 5                 =E2=94=82
+=E2=94=82                              =E2=94=82
+=E2=94=82  False Positive Rate: 4%     =E2=94=82
+=E2=94=82  False Negative Rate: 6%     =E2=94=82
+=E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=
+=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+
+Total Time: ~20-30 minutes (full test cycle)
+</code></pre>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-RegressionTest=
+ingWorkflowSteps">Regression Testing Workflow Steps</h3>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Step1:TestInit=
+iation(T+0)">Step 1: Test Initiation (T+0)</h4>
+<p><strong>Action</strong>: Trigger historical PR data collection</p>
+<p><strong>Methods</strong>:</p>
+<ol>
+<li><strong>Manual Lambda Invocation</strong>: Direct AWS Lambda invoke</li=
+>
+<li><strong>PR-Triggered</strong>: Create PR with <code>[REGRESSION-TEST]</=
+code> tag in POC repo</li>
+</ol>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>Historical PR Fetcher Lambda invoked</li>
+<li>Mode: <code>incremental_update</code></li>
+<li>Fetches closed PRs from GitHub Enterprise</li>
+<li>Caches PR data to S3</li>
+</ol>
+<p><strong>S3 Cache Structure</strong>:</p>
+<pre><code>s3://iam-automation-historical-prs-dev/
+=E2=94=94=E2=94=80=E2=94=80 Centralized-IAM-Accounts/
+    =E2=94=94=E2=94=80=E2=94=80 idc-gts-roles-prod/
+        =E2=94=94=E2=94=80=E2=94=80 2025/
+            =E2=94=94=E2=94=80=E2=94=80 10/
+                =E2=94=94=E2=94=80=E2=94=80 pr-180.json
+</code></pre>
+<p><strong>Cached PR Data</strong>:</p>
+<pre><code class=3D"language-json">{
+  "pr_id": "Centralized-IAM-Accounts/idc-gts-roles-prod#180",
+  "repository": "Centralized-IAM-Accounts/idc-gts-roles-prod",
+  "pr_number": 180,
+  "title": "GTBT-6500: Update IAM role permissions",
+  "author": "jdoe",
+  "created_at": "2025-10-10T12:00:00Z",
+  "closed_at": "2025-10-15T10:30:00Z",
+  "state": "closed",
+  "merged": true,
+  "human_decision": "APPROVED",
+  "decision_timestamp": "2025-10-15T10:30:00Z",
+  "cached_at": "2025-11-25T14:30:00Z"
+}
+</code></pre>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Step2:Regressi=
+onTestTrigger(T+1second)">Step 2: Regression Test Trigger (T+1 second)</h4>
+<p><strong>Action</strong>: Load cached PRs and insert into regression tabl=
+e</p>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>Historical PR Fetcher Lambda invoked again</li>
+<li>Mode: <code>regression_test</code></li>
+<li>Loads cached PRs from S3</li>
+<li>Applies sampling strategy (if configured)</li>
+<li>Inserts selected PRs into regression table</li>
+</ol>
+<p><strong>Sampling Parameters</strong> (optional):</p>
+<pre><code class=3D"language-json">{
+  "max_prs": 50,
+  "decision_filter": "ALL",
+  "random_seed": 12345,
+  "repositories": null,
+  "per_repo_limit": null
+}
+</code></pre>
+<p><strong>DynamoDB INSERT</strong>:</p>
+<pre><code class=3D"language-json">{
+  "test_run_id": "test-run-2025-11-25-001",
+  "pr_id": "Centralized-IAM-Accounts/idc-gts-roles-prod#180",
+  "repo_pr": "Centralized-IAM-Accounts/idc-gts-roles-prod#180",
+  "repo": "Centralized-IAM-Accounts/idc-gts-roles-prod",
+  "pr_number": 180,
+  "title": "GTBT-6500: Update IAM role permissions",
+  "author": "jdoe",
+  "human_decision": "APPROVED",
+  "expected_result": "PASSED",
+  "test_timestamp": "2025-11-25T14:30:00Z"
+}
+</code></pre>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Step3:Workflow=
+Trigger(T+2seconds)">Step 3: Workflow Trigger (T+2 seconds)</h4>
+<p><strong>Action</strong>: DynamoDB Stream triggers Step Function</p>
+<p><strong>Trigger</strong>: DynamoDB Stream INSERT event (regression table=
+)</p>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>Stream event delivered to Step Function Trigger Lambda</li>
+<li>Lambda detects regression test (test_run_id present)</li>
+<li>Lambda normalizes event structure</li>
+<li>Lambda starts Regression Step Function execution</li>
+<li>Lambda updates DynamoDB with execution metadata</li>
+</ol>
+<p><strong>DynamoDB UPDATE</strong>:</p>
+<pre><code class=3D"language-json">{
+  "test_run_id": "test-run-2025-11-25-001",
+  "pr_id": "Centralized-IAM-Accounts/idc-gts-roles-prod#180",
+  "execution_id": "xyz789-abc123-def456",
+  "execution_status": "RUNNING",
+  "execution_timestamp": "2025-11-25T14:30:02Z"
+}
+</code></pre>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Steps4-7:Valid=
+ationExecution">Steps 4-7: Validation Execution</h4>
+<p><strong>Process</strong>: Same as production workflow, but with regressi=
+on-specific differences</p>
+<p><strong>Key Differences</strong>:</p>
+<ul>
+<li>Uses <code>github-prs-regression-test-{env}</code> table</li>
+<li>Uses composite key (test_run_id + pr_id)</li>
+<li>Field names differ:=20
+<ul>
+<li><code>security_status</code> (not security_scan_endstatus)</li>
+<li><code>compliance_status</code> (not compliance_check_endstatus)</li>
+<li><code>iam_boundary_status</code> (not iam_boundary_check_endstatus)</li=
+>
+<li><code>automated_decision</code> (not final_status)</li>
+</ul></li>
+<li>Lambda functions receive <code>regression_mode: true</code> flag</li>
+<li>PR data comes from S3 cache (not live GitHub API)</li>
+</ul>
+<p><strong>DynamoDB State After Validation</strong>:</p>
+<pre><code class=3D"language-json">{
+  "test_run_id": "test-run-2025-11-25-001",
+  "pr_id": "Centralized-IAM-Accounts/idc-gts-roles-prod#180",
+  "execution_status": "COMPLETED",
+  "security_status": "PASSED",
+  "compliance_status": "PASSED",
+  "iam_boundary_status": "PASSED",
+  "automated_decision": "PASSED",
+  "human_decision": "APPROVED",
+  "expected_result": "PASSED"
+}
+</code></pre>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Step8:ResultsC=
+omparisonandAggregation">Step 8: Results Comparison and Aggregation</h4>
+<p><strong>Action</strong>: Compare automation decision with human decision=
+</p>
+<p><strong>Process</strong>:</p>
+<ol>
+<li>Final Status Checker Lambda compares results:<pre><code class=3D"langua=
+ge-python">if automated_decision =3D=3D expected_result:
+    test_result =3D "MATCH"
+else:
+    test_result =3D "MISMATCH"
+</code></pre></li>
+<li>Lambda updates DynamoDB with test_result</li>
+<li>Lambda invokes Regression Summary Lambda</li>
+<li>Regression Summary aggregates all results for test_run_id</li>
+<li>Regression Summary calculates accuracy metrics</li>
+<li>Regression Summary sends notification to Teams</li>
+</ol>
+<p><strong>DynamoDB FINAL UPDATE</strong>:</p>
+<pre><code class=3D"language-json">{
+  "test_run_id": "test-run-2025-11-25-001",
+  "pr_id": "Centralized-IAM-Accounts/idc-gts-roles-prod#180",
+  "execution_status": "COMPLETED",
+  "automated_decision": "PASSED",
+  "human_decision": "APPROVED",
+  "expected_result": "PASSED",
+  "test_result": "MATCH"
+}
+</code></pre>
+<p><strong>Accuracy Metrics</strong>:</p>
+<pre><code class=3D"language-python">total_prs =3D 50
+match_count =3D 45
+mismatch_count =3D 5
+
+accuracy =3D (match_count / total_prs) * 100  # 90%
+
+# False Positive: Automation PASSED but human REJECTED
+false_positive_count =3D 2
+false_positive_rate =3D (2 / total_rejected) * 100  # 4%
+
+# False Negative: Automation FAILED but human APPROVED
+false_negative_count =3D 3
+false_negative_rate =3D (3 / total_approved) * 100  # 6%
+</code></pre>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Step9:TeamsNot=
+ification">Step 9: Teams Notification</h4>
+<p><strong>Action</strong>: Teams Notifier sends regression test summary</p=
+>
+<p><strong>Trigger</strong>: DynamoDB Stream MODIFY event (execution_status=
+=3DCOMPLETED)</p>
+<p><strong>Routing Logic</strong>:</p>
+<pre><code class=3D"language-python">if test_run_id exists:
+    channel =3D "IAM-PR-Automation-Regression"
+</code></pre>
+<p><strong>Teams Channel</strong>: IAM-PR-Automation-Regression</p>
+<p><strong>Notification Content</strong> (MATCH):</p>
+<pre><code>=E2=9C=85 Regression Test - MATCH
+
+Test Run: test-run-2025-11-25-001
+PR: #180 (Centralized-IAM-Accounts/idc-gts-roles-prod)
+
+Human Decision: APPROVED
+Expected Result: PASSED
+Automated Decision: =E2=9C=85 PASSED
+
+Test Result: =E2=9C=85 MATCH
+
+Validation Results:
+=E2=9C=85 Security Scan: PASSED
+=E2=9C=85 Compliance Check: PASSED
+=E2=9C=85 IAM Boundary Check: PASSED
+
+[View Historical PR](https://git.us.aegon.com/Centralized-IAM-Accounts/idc-=
+gts-roles-prod/pull/180)
+</code></pre>
+<p><strong>Notification Content</strong> (MISMATCH):</p>
+<pre><code>=E2=9A=A0=EF=B8=8F Regression Test - MISMATCH
+
+Test Run: test-run-2025-11-25-002
+PR: #175 (Centralized-IAM-Accounts/idc-gts-roles-prod)
+
+Human Decision: APPROVED
+Expected Result: PASSED
+Automated Decision: =E2=9D=8C FAILED
+
+Test Result: =E2=9A=A0=EF=B8=8F MISMATCH (needs investigation)
+
+Validation Results:
+=E2=9D=8C Security Scan: FAILED
+=E2=9C=85 Compliance Check: PASSED
+=E2=9C=85 IAM Boundary Check: PASSED
+
+[View Historical PR](https://git.us.aegon.com/Centralized-IAM-Accounts/idc-=
+gts-roles-prod/pull/175)
+</code></pre>
+<p><strong>Summary Notification</strong> (After all PRs complete):</p>
+<pre><code>=F0=9F=93=8A Regression Test Summary
+
+Test Run: test-run-2025-11-25-001
+Completed: 2025-11-25 14:45:00
+
+Total PRs Tested: 50
+=E2=9C=85 MATCH: 45 (90%)
+=E2=9A=A0=EF=B8=8F MISMATCH: 5 (10%)
+
+Accuracy Metrics:
+- Overall Accuracy: 90%
+- False Positive Rate: 4% (2 PRs)
+- False Negative Rate: 6% (3 PRs)
+
+Breakdown by Repository:
+- idc-base-roles-prod: 10 PRs, 9 MATCH (90%)
+- idc-spain-roles-prod: 10 PRs, 9 MATCH (90%)
+- idc-gts-roles-prod: 10 PRs, 9 MATCH (90%)
+- idc-ta-roles-prod: 10 PRs, 9 MATCH (90%)
+- idc-auk-roles-prod: 10 PRs, 9 MATCH (90%)
+
+[View Detailed Results]
+</code></pre>
+<hr>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-RegressionTest=
+ingSummary">Regression Testing Summary</h3>
+<p><strong>Total Duration</strong>: ~20-30 minutes (full test cycle with 50=
+ PRs)</p>
+<p><strong>Key Points</strong>:</p>
+<ul>
+<li>Uses historical PR data from S3 cache</li>
+<li>Compares automation decisions with human decisions</li>
+<li>Measures accuracy, false positive rate, false negative rate</li>
+<li>Separate DynamoDB table with composite key</li>
+<li>Different Step Function definition (regression mode)</li>
+<li>Aggregated summary sent to Teams</li>
+</ul>
+<p><strong>Possible Test Results</strong>:</p>
+<ul>
+<li>=E2=9C=85 <strong>MATCH</strong>: Automation agrees with human decision=
+</li>
+<li>=E2=9A=A0=EF=B8=8F <strong>MISMATCH</strong>: Automation disagrees with=
+ human decision (needs tuning)</li>
+</ul>
+<hr>
+<h2 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-MonitoringandN=
+otifications">Monitoring and Notifications</h2>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-MSTeamsChannel=
+s">MS Teams Channels</h3>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-1.IAM-PR-Autom=
+ation(Production)">1. IAM-PR-Automation (Production)</h4>
+<p><strong>Purpose</strong>: Production PR notifications</p>
+<p><strong>Receives</strong>:</p>
+<ul>
+<li>PRs from IDC repositories (idc-*-roles-prod)</li>
+<li>Real-time validation results</li>
+<li>PASSED/FAILED/ERROR status</li>
+</ul>
+<p><strong>Notification Frequency</strong>: Per PR (within 15-20 seconds of=
+ completion)</p>
+<p><strong>Typical Messages</strong>:</p>
+<ul>
+<li>=E2=9C=85 "PR #250 - All Checks Passed"</li>
+<li>=E2=9D=8C "PR #251 - Checks Failed"</li>
+<li>=E2=9A=A0=EF=B8=8F "PR #252 - Error During Validation"</li>
+</ul>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-2.IAM-PR-Autom=
+ation-Test(Test)">2. IAM-PR-Automation-Test (Test)</h4>
+<p><strong>Purpose</strong>: Test PR notifications from POC repository</p>
+<p><strong>Receives</strong>:</p>
+<ul>
+<li>PRs from CSET/github-pr-poll-poc</li>
+<li>Test validation results</li>
+<li>Usually FAILED (no IAM policies in test repo)</li>
+</ul>
+<p><strong>Notification Frequency</strong>: Per PR (within 15-20 seconds of=
+ completion)</p>
+<p><strong>Typical Messages</strong>:</p>
+<ul>
+<li>=E2=9D=8C "PR #22 - Checks Failed (No IAM policy files found)"</li>
+<li>=E2=9C=85 "PR #23 - All Checks Passed" (if test IAM policies added)</li=
+>
+</ul>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-3.IAM-PR-Autom=
+ation-Regression(Regression)">3. IAM-PR-Automation-Regression (Regression)<=
+/h4>
+<p><strong>Purpose</strong>: Regression test results and accuracy metrics</=
+p>
+<p><strong>Receives</strong>:</p>
+<ul>
+<li>Individual regression test results (MATCH/MISMATCH)</li>
+<li>Aggregated test summaries</li>
+<li>Accuracy metrics and trends</li>
+</ul>
+<p><strong>Notification Frequency</strong>:</p>
+<ul>
+<li>Per historical PR tested</li>
+<li>Summary after all PRs in test run complete</li>
+</ul>
+<p><strong>Typical Messages</strong>:</p>
+<ul>
+<li>=E2=9C=85 "Regression Test - MATCH (PR #180)"</li>
+<li>=E2=9A=A0=EF=B8=8F "Regression Test - MISMATCH (PR #175)"</li>
+<li>=F0=9F=93=8A "Regression Test Summary: 90% Accuracy (45/50 MATCH)"</li>
+</ul>
+<hr>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-CloudWatchMoni=
+toring">CloudWatch Monitoring</h3>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-KeyMetricstoMo=
+nitor">Key Metrics to Monitor</h4>
+<p><strong>Lambda Metrics</strong>:</p>
+<ul>
+<li>Invocations</li>
+<li>Errors</li>
+<li>Duration</li>
+<li>Throttles</li>
+<li>Concurrent Executions</li>
+</ul>
+<p><strong>DynamoDB Metrics</strong>:</p>
+<ul>
+<li>ConsumedReadCapacityUnits</li>
+<li>ConsumedWriteCapacityUnits</li>
+<li>UserErrors</li>
+<li>SystemErrors</li>
+<li>ThrottledRequests</li>
+</ul>
+<p><strong>Step Function Metrics</strong>:</p>
+<ul>
+<li>ExecutionsStarted</li>
+<li>ExecutionsSucceeded</li>
+<li>ExecutionsFailed</li>
+<li>ExecutionTime</li>
+</ul>
+<p><strong>EventBridge Metrics</strong>:</p>
+<ul>
+<li>Invocations</li>
+<li>FailedInvocations</li>
+<li>TriggeredRules</li>
+</ul>
+<hr>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-LoggingBestPra=
+ctices">Logging Best Practices</h3>
+<p><strong>Log Levels</strong>:</p>
+<ul>
+<li><strong>INFO</strong>: Normal operations, PR discoveries, validation re=
+sults</li>
+<li><strong>WARNING</strong>: Retries, temporary failures, missing data</li=
+>
+<li><strong>ERROR</strong>: Validation failures, API errors, system errors<=
+/li>
+</ul>
+<p><strong>Key Log Events</strong>:</p>
+<ul>
+<li>PR discovered: <code>"Discovered PR #{pr_number} in {repo}"</code></li>
+<li>Workflow started: <code>"Started Step Function execution {execution_id}=
+"</code></li>
+<li>Validation complete: <code>"Validation complete: {status}"</code></li>
+<li>Notification sent: <code>"Sent Teams notification to {channel}"</code><=
+/li>
+</ul>
+<hr>
+<h2 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Troubleshootin=
+g">Troubleshooting</h2>
+<h3 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-CommonIssues">=
+Common Issues</h3>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Issue1:PRNotDe=
+tected">Issue 1: PR Not Detected</h4>
+<p><strong>Symptoms</strong>: PR created but no Teams notification after 5 =
+minutes</p>
+<p><strong>Possible Causes</strong>:</p>
+<ol>
+<li>PR Poller Lambda not running</li>
+<li>Repository not in config.json</li>
+<li>GitHub API rate limiting</li>
+<li>VPC connectivity issues</li>
+</ol>
+<p><strong>Diagnosis</strong>:</p>
+<pre><code class=3D"language-bash"># Check PR Poller logs
+aws logs tail /aws/lambda/gts-github-pr-poll-poller-dev --follow
+
+# Check EventBridge rule
+aws events describe-rule --name github-pr-polling-dev
+
+# Check DynamoDB for PR
+aws dynamodb get-item \
+  --table-name github-open-prs-dev \
+  --key '{"repo_pr": {"S": "Centralized-IAM-Accounts/idc-gts-roles-prod#250=
+"}}'
+</code></pre>
+<p><strong>Solutions</strong>:</p>
+<ol>
+<li>Verify EventBridge rule is enabled</li>
+<li>Add repository to config.json if missing</li>
+<li>Check GitHub API rate limits in logs</li>
+<li>Verify VPC security groups allow GitHub Enterprise access</li>
+</ol>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Issue2:Workflo=
+wNotStarting">Issue 2: Workflow Not Starting</h4>
+<p><strong>Symptoms</strong>: PR in DynamoDB but execution_status not set</=
+p>
+<p><strong>Possible Causes</strong>:</p>
+<ol>
+<li>Step Function Trigger Lambda not subscribed to stream</li>
+<li>DynamoDB Stream disabled</li>
+<li>IAM permissions missing</li>
+<li>Step Function execution limit reached</li>
+</ol>
+<p><strong>Diagnosis</strong>:</p>
+<pre><code class=3D"language-bash"># Check Step Function Trigger logs
+aws logs tail /aws/lambda/gts-github-pr-poll-stepfunction-trigger-dev --fol=
+low
+
+# Check DynamoDB Stream
+aws dynamodb describe-table --table-name github-open-prs-dev \
+  | jq '.Table.StreamSpecification'
+
+# Check event source mapping
+aws lambda list-event-source-mappings \
+  --function-name gts-github-pr-poll-stepfunction-trigger-dev
+</code></pre>
+<p><strong>Solutions</strong>:</p>
+<ol>
+<li>Verify event source mapping is enabled</li>
+<li>Enable DynamoDB Stream if disabled</li>
+<li>Check IAM role has states:StartExecution permission</li>
+<li>Check Step Function execution limits in AWS Console</li>
+</ol>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Issue3:Validat=
+ionChecksFailing">Issue 3: Validation Checks Failing</h4>
+<p><strong>Symptoms</strong>: All PRs showing FAILED status</p>
+<p><strong>Possible Causes</strong>:</p>
+<ol>
+<li>Validation Lambda errors</li>
+<li>GitHub API access issues</li>
+<li>Invalid validation logic</li>
+<li>Missing IAM policies in PRs</li>
+</ol>
+<p><strong>Diagnosis</strong>:</p>
+<pre><code class=3D"language-bash"># Check Security Scan logs
+aws logs tail /aws/lambda/gts-github-pr-poll-security-scan-dev --follow
+
+# Check Compliance Check logs
+aws logs tail /aws/lambda/gts-github-pr-poll-compliance-check-dev --follow
+
+# Check IAM Boundary Checker logs
+aws logs tail /aws/lambda/gts-github-pr-poll-iam-boundary-checker-dev --fol=
+low
+</code></pre>
+<p><strong>Solutions</strong>:</p>
+<ol>
+<li>Review Lambda error logs for specific issues</li>
+<li>Verify GitHub token has correct permissions</li>
+<li>Review validation logic for false negatives</li>
+<li>Verify PRs contain IAM policy files</li>
+</ol>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Issue4:TeamsNo=
+tificationsNotSent">Issue 4: Teams Notifications Not Sent</h4>
+<p><strong>Symptoms</strong>: Workflow completes but no Teams notification<=
+/p>
+<p><strong>Possible Causes</strong>:</p>
+<ol>
+<li>Teams Notifier Lambda not subscribed to stream</li>
+<li>Teams webhook URL invalid</li>
+<li>execution_status not set to COMPLETED</li>
+<li>final_status missing</li>
+</ol>
+<p><strong>Diagnosis</strong>:</p>
+<pre><code class=3D"language-bash"># Check Teams Notifier logs
+aws logs tail /aws/lambda/gts-github-pr-poll-notifier-dev --follow
+
+# Check DynamoDB record
+aws dynamodb get-item \
+  --table-name github-open-prs-dev \
+  --key '{"repo_pr": {"S": "Centralized-IAM-Accounts/idc-gts-roles-prod#250=
+"}}' \
+  | jq '.Item.execution_status, .Item.final_status'
+
+# Test Teams webhook
+curl -X POST &lt;teams_webhook_url&gt; \
+  -H "Content-Type: application/json" \
+  -d '{"text": "Test notification"}'
+</code></pre>
+<p><strong>Solutions</strong>:</p>
+<ol>
+<li>Verify event source mapping filter: <code>execution_status =3D "COMPLET=
+ED"</code></li>
+<li>Verify Teams webhook URL in Secrets Manager</li>
+<li>Check Step Function completed successfully</li>
+<li>Verify final_status was set by Final Status Checker</li>
+</ol>
+<hr>
+<h4 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-Issue5:Regress=
+ionTestsNotRunning">Issue 5: Regression Tests Not Running</h4>
+<p><strong>Symptoms</strong>: Historical PR Fetcher invoked but no test res=
+ults</p>
+<p><strong>Possible Causes</strong>:</p>
+<ol>
+<li>S3 cache empty</li>
+<li>Sampling parameters too restrictive</li>
+<li>Regression table not receiving INSERTs</li>
+<li>Regression Step Function not starting</li>
+</ol>
+<p><strong>Diagnosis</strong>:</p>
+<pre><code class=3D"language-bash"># Check Historical PR Fetcher logs
+aws logs tail /aws/lambda/gts-github-pr-poll-historical-pr-fetcher-dev --fo=
+llow
+
+# Check S3 cache
+aws s3 ls s3://iam-automation-historical-prs-dev/ --recursive
+
+# Check regression table
+aws dynamodb scan --table-name github-prs-regression-test-dev \
+  --limit 10
+
+# Check regression Step Function
+aws stepfunctions list-executions \
+  --state-machine-arn &lt;regression-stepfunction-arn&gt; \
+  --max-results 10
+</code></pre>
+<p><strong>Solutions</strong>:</p>
+<ol>
+<li>Run incremental_update mode to populate S3 cache</li>
+<li>Adjust sampling parameters (increase max_prs)</li>
+<li>Verify Historical PR Fetcher has DynamoDB PutItem permission</li>
+<li>Check regression Step Function Trigger Lambda logs</li>
+</ol>
+<hr>
+<h2 id=3D"IAMPRAutomationWorkflowCompleteSystemDocumentation-RelatedDocumen=
+tation">Related Documentation</h2>
+<ul>
+<li><strong>AWS Step Functions</strong>: https://docs.aws.amazon.com/step-f=
+unctions/</li>
+<li><strong>AWS Lambda</strong>: https://docs.aws.amazon.com/lambda/</li>
+<li><strong>DynamoDB Streams</strong>: https://docs.aws.amazon.com/amazondy=
+namodb/latest/developerguide/Streams.html</li>
+<li><strong>GitHub Enterprise API</strong>: https://docs.github.com/en/ente=
+rprise-server/rest</li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_334199_797365687.1772572604206--
