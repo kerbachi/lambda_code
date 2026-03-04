@@ -1,0 +1,86 @@
+Where are the backups stored ?
+Any specification for Data privacy type ?
+What CI/CD tool is used ?
+Support ?
+
+CloudCase: you have your own velero package?
+What opensource version you support?
+What the support encompass?
+SLA for response?
+
+
+From Fisher Tim :
+1st EKS: 1 node group with 4 node
+2nd EKS: 2 node groups 4 nodes + 1 node
+
+
+CloudCasa: SaaS In Europe. Backup the solution in our own cluster
+
+
+Question: Europ only ?
+What permissions for cloudcasa?
+multiple teams permissions with access roles.
+SSO he will check that. SAMLv2 with +Fee
+
+No direct integration with Splunk
+
+
+US Est deployment.
+Ask if a backup is started with CLI does it show up in the interface?
+secrets storage supported (EKS KMS, Conjur)?
+
+License per worker node: 39$ node/month
+199$ / month for the first 10 nodes
+
+
+-----
+
+The SharePoint folder:  https://aegon.sharepoint.com/:f:/r/sites/AGTSolutionDesignRepository/Shared%20Documents/2025/RITM0940724-ACBSD-3255-Velero?csf=1&web=1&e=sFguga
+
+OneTrust ID: 12004
+
+Risk Acceptance link: https://forms.office.com/Pages/ResponseDetailPage.aspx?id=NWjhRgTI3kG-PFWDXRTe5EAWEg2cKC9AoCnuY8DJJdxUOFNJNkUxWkY4OTNRQVQ2WUVQWFRZMVRaNiQlQCN0PWcu&rid=152&GetResponseToken=wKFxPASuqM9CEsVTLx4nqKy0ntYGtIEc__rUWV6JJf4
+
+
+
+----
+
+Presentation 28 avril 2025
+
+
+We are going to talk  Velero which is an open source backup tool for Kubernetes
+
+
+Silde2: Say it is actually used by Aegon to backup Amazon EKS clusters
+
+
+Silde3: The business values of Velero are: 
+
+The main usage of Velero is a Disaster recovery and business continuity tool
+
+Data Protection: However this not used actually as we are going to see
+
+It helps migration and modernization Kubernetes and minimizing downtime
+
+by leveraging dev and test environments Kubernetes admins can test the update or patches before applying them to production Kubernetes
+
+Compliance and audit : with its logging mechanism 
+It's applied Devops best practicies by allowing automation and agility (IaC)
+
+Scalability : The design pattern at Aegon is to use K8S in AWS. However, Velero is cloud agnostic, works on any Kubernetes environment.
+
+
+
+Slide 4: Functionalities:
+
+Backup/restore it build from the ground up specificaly for Kuberneetes. 
+
+
+Slide 5: Velero Backup Workflow
+Whenever an admin send a backup command, hte backup controller detect it and collect the data and cluster configuration.
+For a restore it will be the inverse order. the backup controller fetch the data from S3 and copy it to Kubernetes
+
+
+logging of Velero API calls in AWS Cloudwatch and create alerts with Cloudwatch filtering
+
+

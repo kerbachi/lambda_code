@@ -1,0 +1,102 @@
+
+
+11 feb 2025
+Jarred shared me 
+
+acbsd-2959 
+acbsd-2960 Fire Alarm
+
+Once I have a network device: requester of the ticket: Michelle will send us the details of the devices to be installed, and should clarify the switch ports and IPS for these devices.
+GTS is managing the Eidumberg datacenters. GTS netowrking (Tom Hobson/Mike Quint=Manager)
+
+Questions:
+
+How many facilities will host the devices?
+Vendor requirements regarding the VPN setup?
+Any redundancy for the VPN GTS-Vendor
+
+
+
+19fev 2025 (Niel)
+
+know which devices (form all the datacenters need to use the VPN)
+Can we let the devices connect directly 
+
+
+27 feb 2025 (Niel call)
+take Excel and share it with Mike, Subnet/IP for each device.
+
+Ask Michelle to setup a call with the vendor.
+
+
+Meeting with Jarred Mike:
+John (GTS), he might help us understand where these rooms are.
+Quint Mike is redoing all the network there. (Network operation)
+
+Global Protect VPN
+
+
+11 march 2024
+Meeting with Michelle
+
+Who is going to manage the VPN/install/ troubleshooting ?
+
+Office experience project.
+
+
+Michelle needs a document completed for the VPN (to be filled with the vendor) - 
+Michelle will send the 2 documents to share with it with Network operation.
+
+
+--2 Avril 2025--
+
+Do the document contain all the information needed by GTS infra team?
+
+21  ports will be part of the same VLAN ? Do we have enough switch ports ? 
+
+life cycle replacement, VLAN same number isolated.
+Analysis of ports, if you need to aquire a new equipement.
+
+
+Somogyi Beata (PMO) (4/4/2025 Meeting)
+
+
+---
+
+VLAN 2222 is it good, it isolated from other Aegon VLANs ?
+
+VPN paramaters are defined by GTS ? Do we involve other teams for review (Exp security ?)
+
+Juniper SDWAN (secure connection SDWAN)
+
+What traffic will be crossing - to ask the vendor
+Vendor name, the contact of the vendor
+
+
+Request VPN connection, External Business Partner Connection: 
+https://aegon.service-now.com/asp?id=sc_cat_item&sys_id=d7cacd70db2cf8d47afc65b3059619f8
+
+Operational document (VLAN, IPs) put a note in Jira every is covered 
+
+
+Standard business partner request - Kevin may request an expection 
+
+Reference document: CBSD-3160
+
+
+
+---
+
+
+Meeting 28 May 2025
+
+Preparation:
+Record the meeting to review it.
+Who fills the VPN request?
+Who has the details VPN? Should we include the security team to approve the VPN details?
+Are the Command (vendor) going to login to our internal network?
+Confirm VLAN 2222 is isolated from all Aegon network.
+
+
+Send a ticket with ServiceNow with dedadline of 20th june
+ 

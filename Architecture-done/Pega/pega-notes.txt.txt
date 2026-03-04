@@ -1,0 +1,62 @@
+AWS: 863576539391  Irland eu-west-1
+
+Q for HP:
+
+Openshift Vs Morpheus, their relationship?
+Deployment tool HP recommands ?
+Loadbalancer: what will be used on EKS-A, since ELB is not possible
+How to do backup ?
+Logging (For Ben) Officiel tool to send logs
+
+19 dec 2024 meeting with HPE:
+HP implementaion team: deployment of EKS-A -> after transition to HP managed service: will be upgrade EKS-A
+Ben Newport: does the quote includes the DRP (in 2nd site) ? Edinburg (1st) Hamilton (2nd)
+Backup with Netbackup (Aegon), In case it is not suited for backup of Containerized env HPE will help with that (it's in exclusion section of the contract)
+
+
+
+40 hours over a month (OTS Operational Technical Support)/ if we add 40h more that would add 15KUSD 
+
+
+
+Key points about EKSA:
+- Use ECR or external Container provider
+- Cilium opensource
+- BRAC integration with AD ?
+- Monitoring: Prometheus ?
+- Certificate manager cert-manager ?
+- What management tool for EKSA ?
+
+
+
+
+
+
+22 january 2025
+Penticoff, Tony (next sprint 5th February)
+Neptune=Beats Elastic Kibana
+
+
+we retain 90 days of logs
+
+asking AUK: Type of metrics/logs alerts: what alerts, who receive tehm ? basically their logs: logs, telemetry?
+
+
+
+
+24 january 2025 (AWS meeting)
+Aws meeting regarding EKSA: same pricing as in AWS portal + 18% discount
+They release EKSA hybride (Control plan in AWS / nodes on prem)
+AWS can give trial license for Enterprise EKSA
+
+
+
+
+HPE: Quote
+3 weeks for POC (74K USD)
+post POC: 59000 USD
+
+
+31 january 2025 (AWS meeting)
+Scaling up to the client
+No currated packages required

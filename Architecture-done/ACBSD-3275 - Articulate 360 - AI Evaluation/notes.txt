@@ -1,0 +1,18 @@
+app=desktop -> connect to SaaS (generate courses)
+
+The ask to use 
+manually you can enable/disable sending the data to SaaS for AI, no control on that. Green light from security, offer potential control if possible.
+Security team: Nick Russel, Daniel Lartey
+
+AI commitee: Alen BenAssie, Iain Welsch
+
+
+1: Ask Alen BenAssie, Iain Welsch: have you review it and what are your recommandation ? 
+2: Ask Nick Russel, Daniel Lartey (May be they will rise an exception) not done per us by the requesteer (rising the risk)
+
+
+21feb2025 (Standup)
+
+exception because its part of the product, there is nothing we can do for it. Would be presented with a powerpoint.
+
+We don't have any access to the model itself.

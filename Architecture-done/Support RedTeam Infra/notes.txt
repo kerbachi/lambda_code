@@ -1,0 +1,12 @@
+
+
+component standard to connect to sandbox potential solution to setup VDI. I will 
+
+Webbrowser or VDI. Sandbox is not inside Aegon network.
+
+
+Original issue: No jumb box-> can't ssh to guacamole nor do proxying 
+
+Applied other solution: 
+
+concern: sandbox dynamic IP how to limit that with FW if using VDI in Aegon AWS?

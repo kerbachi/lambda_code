@@ -1,0 +1,92 @@
+EKS running for 3 years. 
+Karen Hunt director of Data Protection.
+
+
+Karpenter:
+
+Vermeulen, Roland (Delivery Manager • GTS - SPA ESS/Data) requetsed that on 21ts February 2025
+They don't use Fargat
+
+In the EKS architecture docu, it talks about Fargat, shouldn't we allow only Fargat without Karpenter ?
+
+
+Use Terraform?
+
+
+Question Roland: 
+Wat is your team and BU ?
+Iam role for Karpenter?
+
+Deployment script for EKS/Karpenter?
+SQS
+
+Question for Bobby:
+SQS we need a separate Component design?
+For my document should I add metigation for cost ? Since there is no metigation for security.
+We need security Risk assessment for Karpenter? Is it mandatory for each component design?
+
+
+Rachel (For Velero but can be applied to Karpenter):
+
+Hi Mohamed, You will need to address how Velero will be maintained in the environment.
+How do teams make sure they are using the most current version (subscribe to Velero feeds, manually check for updates and implement, etc)?  Patching, tech debt, vulnerabilites, security advisories are all issues with open source that you need to talk to in the component standard. 
+Addionally, I know there is a section that states backup success and failures are logged.  How are the failures addressed and by whom?
+
+
+
+
+--- Presentation ---
+1 April 2025
+
+
+
+Slide 3 - Business Value
+
+Business Values from using Karpenter are:
+- Improved Resource Efficiency by automatically deploying right-size EC2 instance and reducing management overhead.
+- Karpenter will allow Cost optimization: its dynamic capacity provisioning eliminate wasteful resources (Ec2) enabling IMPORTANT (significant) infrastructure cost reduction, and leveraging AWS EC2 Spot for approximately 70% in savings."
+- Rapid Scale and Agility: Karpenter monitor continuously Kubernetes events and reacts quickly by scaling up or down the cluster size. NOOO This automated approach (significantly) surpasses the agility of manual provisioning methods."
+- Easier Compliance & Governance: Karpenter is built from the ground up as part of Kubernetes ecosystem === that means it is managed with scripts allowing easy automation and policy based provioniong with extensive logging and monitoring capabilitites
+
+
+Slide 4 - Functionality
+
+Karpenter allows dynamic -and intelligent- node provisioning to meet real-time workloads efficiently, optimizing resource utilization and compliance while minimizing cloud spending.
+
+It simplifies operations by automating lifecycle management, security integration with AWS IAM, and automated AZ management (Infrastructure As Code)
+
+Extensible and customizable, it aligns provisioning with demand, reduces unused Ec2 which leads to small environment footprint
+
+
+Slide 5: AWS EKS evolution over time. When AWS released EKS first time in 2018 the only way to scale the cluster was Autoscaler Group, which was used scale EC2 nodes for web servers not ideal for Kubernetes clusters.
+
+ASG works but lack many important features available other Kubernetes flavors: lackes the flexibility to have a granular EC2 instance size and type selection, Load balancing between AZs is limited, 
+This is why Amazon created Karpenter in 2023 and released it as open source to be open and compatible with any platform (not only Amazon)
+
+
+
+Slide 7: High level how Karpenter works:
+	1- listening to K8S events and provisioning the right instance (CPU, Memeroy, instance type -Spot/on Demand or Reserved)
+	2- Resource consolidation: reduce the number of running EC2 insances by consolidating similar pods in fewer instances. This feature optional, but recommanded by AWS to reduce infrastructure cost. 
+
+
+
+Slide 8: Guardrails
+	Access control must apply least privilage and IRSA which maps Kubernetes internal policy with AWS IAM roles
+
+	Assigned roles must be reviewd periodicaly 
+
+	Define least privilege SG for EC2
+
+
+
+
+* The Open Policy Agent (OPA, pronounced “oh-pa”) is an open source policy engine that allows policy enforcement (Policy as Code)
+
+
+Auto scaling VS Karpenter.
+One Trust Assessment to do
+
+
+What data is used where it is stored?
+
