@@ -1,0 +1,38 @@
+Presentation 28 avril 2025
+
+
+I am presenting here the OneTrust solution design
+
+Slide 2:
+This an update of an old solution design using the new template with the addition new GenAI features.
+
+
+Slide 3: 
+This an update of an old document. OneTrust has used used at Aegon for few years now. The Data protection team is testing the new AI features on non prod environment, and the intent is to use it in production after approval of this design.
+
+Slide 4:
+Promise value of the new AI features are: Automating the document parsing and ingestion
+provide real time help and guidance with the platform 
+
+Licensing is based on the number of DPO and administrator users.
+
+OneTrust is classified as Core technology component and is Global impact
+
+
+Slide 5:
+Key business requirements
+
+The possibility to export data
+and to be Compliant with regulations regarding data privacy (GDPR, UK GDPR, CCPA and HIPAA)
+
+
+Slide 6:
+
+
+Slide 7: 
+Non functional requirements: OneTrust is a SaaS solution so all the operational and maintenance part is own by the vendor.
+One remark thoug: SPLUNK is integration is supported by OneTrust but implemented yet. We recommend assessing the enablement of this feature since SPLUNK is the official SIEM tool at Aegon.
+
+
+Slide 8:
+
