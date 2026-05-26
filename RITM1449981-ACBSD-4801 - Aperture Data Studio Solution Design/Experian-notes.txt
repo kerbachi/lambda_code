@@ -1,0 +1,13 @@
+Experian 18 May 2026
+
+Boyle Kenny (Data manager) they are the data owner and service provider (TA=70% overall review of the group)
+he wants a solution architecture since that will trigger other requests
+
+
+Can be deployed on VM  (Windows) and Kubernetes
+
+Kenny: criticality depends on how it is used if it generates reports for business it can't be down more than 4 hours
+
+Weekly meetings
+
+first deliverable high level AWS architecture (By Simms Henry) > liked by Kelvin Tam we need to share that with security (Do we need firewall integration- For Saas integration we prefer VPC Private link than data moving through Internet)
