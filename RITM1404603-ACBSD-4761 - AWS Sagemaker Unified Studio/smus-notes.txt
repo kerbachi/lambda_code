@@ -24,3 +24,13 @@ Marketplace possible, can we control that ?
 
 
 Can we use our own launchpad ?
+
+We will not test nor talk about "Multi-account deployments even if it is supported" in the Component standard
+
+I want to clarify one thing though: Does the Amazon Q and Quick (I am mentioning AI/ML related tools, excluding Bedrock since we it will blocked for the POC) use or share any information contained in another AWS account from Aegon's org ? IS it possible to block that explicitly? Eventough these services are managed by AWS containing all the backend related processes within the same AWS account, in our case EBA AWS account ?
+
+
+28 May Mike: waiting Bobby to approve the SCP: Q and datazone must be approved: need to enable them in SCP and IAM boundry.
+Bedrock is blocked by SCP no need to change anything it is not needed for POC/CS. 
+
+

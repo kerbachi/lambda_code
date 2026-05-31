@@ -11,3 +11,6 @@ Kenny: criticality depends on how it is used if it generates reports for busines
 Weekly meetings
 
 first deliverable high level AWS architecture (By Simms Henry) > liked by Kelvin Tam we need to share that with security (Do we need firewall integration- For Saas integration we prefer VPC Private link than data moving through Internet)
+
+
+Technical recommendations: https://docs.experianaperture.io/data-quality/aperture-data-studio/installation/technical-recommendations/
