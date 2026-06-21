@@ -14,3 +14,8 @@ first deliverable high level AWS architecture (By Simms Henry) > liked by Kelvin
 
 
 Technical recommendations: https://docs.experianaperture.io/data-quality/aperture-data-studio/installation/technical-recommendations/
+
+Questions to answer:
+What SLA for the solution? -> VM clusters?
+Do we have any CS for VM (looking for updates, patches, supported OSs, etc.)
+Do we need to create any app, special scripts to enable the solution?
