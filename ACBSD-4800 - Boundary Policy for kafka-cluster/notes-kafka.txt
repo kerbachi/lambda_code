@@ -1,20 +1,21 @@
-Hi Kerbachi, Mohamed - GTS Global ENG & ARCH
+Hi
  
-I owe you a couple of answers about Kafka-Cluster
--Why we use Kafka-Cluster
+I owe you a couple of answers about Kafka-Cluster:
+
+-Why we use Kafka-Cluster ?
  
 Spain IT is migrating current Informatica Application (ETL) as is End of Life and vendor does not support any longer this version and forced us to migrate to SaaS to an AWS  microservices . Part of these migration requires communication from synchronous REST APIs to asynchronous event streaming using AWS MSK Managed Streaming for Apache Kafka. This migration requires enabling the `kafka-cluster` IAM permission namespace in Spain IT IAM Policies — a permission that is currently blocked.
  
 Approving `kafka-cluster` permissions enables a **password-less, IAM-native authentication model that is more secure than the available alternatives. 
  
--Why it's necessary kafka-cluster
+-Why it's necessary kafka-cluster ?
 Current State — Problem
 Microservices on AWS ECS communicate via synchronous REST APIs
 - Service A must wait for Service B to respond before continuing
 - If Service B is down, Service A fails (tight coupling)
 - Latency accumulates across service chains, degrading end-user experience
  
-Future State — Solution
+Future State — Solution ?
 Migration to **AWS MSK** enables **asynchronous event-driven communication**:
 - Services publish messages to Kafka topics and continue processing immediately
 - Downstream services consume messages when ready, independently
@@ -22,10 +23,10 @@ Migration to **AWS MSK** enables **asynchronous event-driven communication**:
 - End-user latency is significantly reduced
  
  
-- Why MSK (Kafka) and Not Amazon Kinesis
+- Why MSK (Kafka) and Not Amazon Kinesis ?
 Kafka's open-standard protocol means microservices are portable, and not tied to a single cloud provider — reducing long-term risk. We faced this issue with Informatica BDM and we don't want any vendor-loking solution.
  
--Other Services than Kafka and ECS deployed
+-Other Services than Kafka and ECS deployed ?
 We're working on the decomission of Spain Informatica BDM hosted in AWS as is EOL and vendor does not support any longer this version and moved to SaaS. We evaluated costs and eforts and the preffered solution was to migrate to AWS microservices. 
 No data is exposed to internet, all data is hosted in our AWS environment. 
  
