@@ -23,3 +23,8 @@ Do we need to create any app, special scripts to enable the solution?
 My new questions:
 Can I have access to see the UI?
 What is the RPO RTO ?
+
+
+Real-time data validation
+ETL enrichment/integration
+ServiceNow/Jira integration
