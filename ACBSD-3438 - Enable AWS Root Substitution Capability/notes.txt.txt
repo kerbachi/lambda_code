@@ -1,0 +1,108 @@
+
+
+Jokes:
+
+Why don't skeletons fight each other?
+
+They don't have the guts!
+
+----------------------
+7-28-2026
+
+John Hegyi meeting
+
+- Who assume (switch to root account in the member account), is it the main root or any user with the right permission?
+- possible to use MFA for main root account ?
+
+
+if root enabled and logged in triggers an email every 10mins and a SNOW ticket only manager can close
+
+delegated account so -> disable access and enable root  member account  (Cloud administrator) 
+
+John to provide the name of the AD group to  UENTAWSCLOUDADMINS tied down to specific role and policies in the pipeline
+
+
+----------------------
+
+
+You use SCP ?
+Landing Zone
+
+account VPC, KMS, IAM, service roles, they own the credentials for AWS accounts.
+
+95% automated, vpc create. 
+
+gives you switch from billing account to member accounts, 
+
+Bernard, Pelayo
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/root-user-best-practices.html
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html
+
+
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user-privileged-task.html
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-enable-root-access.html
+
+https://globalitconfluence.us.aegon.com/pages/viewpage.action?spaceKey=BDGR&title=AWS+Organization+Structure
+
+file:///C:/Users/MKERBA~1/AppData/Local/Temp/MicrosoftEdgeDownloads/ec68fc8b-6a03-4a36-ae08-59228a2e6b70/aws-org-top-down-standard.pdf
+
+
+----- 
+Do we have any design pattern, component standard regarding AWS Org root account managements ?
+
+Related to the request: https://globalitjira.us.aegon.com/browse/ACBSD-3438
+
+
+----
+
+Root account: PoC 
+
+set option dummy account/ enable it disable
+
+Teams: Soc team Team Bain / Splunk / Cloud foundation John / Cloud Security: Short Peter, Mooney Tom 
+
+Mike has already done that
+
+
+---
+
+Another question related to securing AWS root accounts, John brought a valid concern: unknown impact on running workloads (including production)  after canceling root of AWS member accounts + setting MFA for root in AWS main account.
+
+
+
+Even though AWS has a clear documentation on how to proceed and apply these changes, it make sense to try them all on a "testing AWS Org", which , John told me, we don't have.
+
+
+--- Question to ask GTS Architects ---
+
+Is it straightforward and a simple request through servicenow, or I should go through a POC request to ARB.
+
+I am asking since John is insisting on the urgency of this modification ... AWS is  enforcing the usage of MFA for any root login 
+
+---- My thoughts on AWS root MFA ---
+
+
+From:  
+
+https://aws.amazon.com/blogs/apn/managing-aws-account-root-mfa-using-cyberark-privileged-access-manager/
+
+https://www.cyberark.com/resources/videos/securing-aws-root-with-cyberark-pam-setup-walkthrough
+
+
+
+What need to be defined documented:
+
+Define RACI, for secrets and token access 
+
+
+
+
+My questions:
+
+CyberArk will record the login sessions?
+CyberArk will be used to change the root password ?
+
