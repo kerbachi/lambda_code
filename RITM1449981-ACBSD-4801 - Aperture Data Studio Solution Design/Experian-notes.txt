@@ -41,3 +41,5 @@ Backup restore procedure?
 Real-time data validation
 ETL enrichment/integration
 ServiceNow/Jira integration
+
+Governance module not bought from Experian it is provided from Aletian 
