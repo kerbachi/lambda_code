@@ -36,10 +36,11 @@ Patch policies?
 For Vendor:
 What type encryption  ?
 Backup restore procedure?
+Connector for ServiceNow & Jira
 
 
 Real-time data validation
 ETL enrichment/integration
 ServiceNow/Jira integration
 
-Governance module not bought from Experian it is provided from Aletian 
+Governance module not bought from Experian(Vendor they do more than just Aperture) (Aperture Data Studio) it is provided from Aletian 
