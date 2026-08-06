@@ -16,18 +16,27 @@ first deliverable high level AWS architecture (By Simms Henry) > liked by Kelvin
 Technical recommendations: https://docs.experianaperture.io/data-quality/aperture-data-studio/installation/technical-recommendations/
 
 Questions to answer:
+
+Q: What is the RPO RTO ? 
+A: 24h / 6h
+
+
 What SLA for the solution? -> VM clusters?
 Do we have any CS for VM (looking for updates, patches, supported OSs, etc.)
 Do we need to create any app, special scripts to enable the solution?
 
 My new questions:
 Can I have access to see the UI?
+Roles and associated AD groups?
+Backup restore procedure?
+Patch policies?
 
-Is Alation Approved ?
 
 
-Q: What is the RPO RTO ? 
-A: 24h / 6h
+For Vendor:
+What type encryption  ?
+Backup restore procedure?
+
 
 Real-time data validation
 ETL enrichment/integration
