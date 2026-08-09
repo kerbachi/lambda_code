@@ -1,0 +1,38 @@
+
+
+
+ --- Functional Requirement ---
+
+Functional requirement is an architectural view that defines what a system does by identifying the transformative processes, inputs, and outputs required to achieve mission objectives, without specifying the physical or structural implementation.  It serves as a bridge between high-level requirements and the structural design, focusing on functional decomposition to break complex operations into elementary units or workflows.
+
+
+Suggest functional requirements for  BigPanda on-premWorker POC . Provide the answer in a table with columns:
+Requirement category | Requirement details | Priority
+
+
+Example of functional requirements for another solution developed by BigPanda:
+
+
+| Requirement category | Requirement details | Priority |
+
+| Technology component |  Automatic Cloud Onboarding: The system must automatically detect and enroll new AWS, Azure, GCP, or Oracle environments for posture scanning.    Earlier in the document is says GCP and Oracle are not in scope of this phase.  We need to state the same here if GCP and Oracle are not in scope.  | Must Have |
+
+| Segmentation |  Network Segmentation Monitoring: The solution should track and display how cloud resources are segmented to ensure minimal lateral movement. | Must Have |
+
+| Security | Role-Based Access Control: Administrators must be able to assign distinct read-only or administrative privileges for each functional team. | Must Have |
+
+
+--- Non-functional requirements  ---
+Non-functional requirements (NFRs) are specifications that define how a system operates, focusing on quality attributes, constraints, and performance criteria rather than specific behaviors or features.  While functional requirements describe what the system must do, NFRs dictate system-wide properties such as usability, reliability, and security, often influencing the overall system architecture and design decisions. 
+
+Suggest non functional requirements for  BigPanda on-premWorker POC . Provide the answer in a table with columns:
+Requirement category | Requirement details | Priority
+
+
+Example of functional requirements for another solution developed by BigPanda:
+
+| Requirement category | Requirement details | Priority |
+| Observability, Logging and Monitoring Requirements | Define the observability, logging, and monitoring requirements for the solution. If observability, logging, and monitoring requirements are not in scope, then state N/A. | Must Have |
+| Resiliency Requirements | Document the failover, redundancy, high-availability, scalability, backup / recovery, RTO and RPO, data protection requirements for the solution. If fault tolerance and resiliency requirements for the solution are not in scope, then state N/A. | Must Have |
+| Performance Requirements | Document the performance requirements for the solution. If performance requirements for the solution are not in scope, then state N/A. | Must Have |
+| Capacity Requirements | Document the capacity requirements for the solution. If capacity requirements are not in scope for the solution, then state N/A. | Must Have |
