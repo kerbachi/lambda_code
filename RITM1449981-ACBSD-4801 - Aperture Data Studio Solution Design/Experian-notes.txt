@@ -20,16 +20,16 @@ Questions to answer:
 Q: What is the RPO RTO ? 
 A: 24h / 6h
 
+Q: What SLA for the solution? -> VM clusters?
+A: 24 RTO / 6h RPO
 
-What SLA for the solution? -> VM clusters?
+My new questions:
+
 Do we have any CS for VM (looking for updates, patches, supported OSs, etc.)
 Do we need to create any app, special scripts to enable the solution?
 
-My new questions:
 Can I have access to see the UI?
 Roles and associated AD groups?
-Backup restore procedure?
-Patch policies?
 
 
 
