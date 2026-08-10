@@ -44,3 +44,34 @@ ETL enrichment/integration
 ServiceNow/Jira integration
 
 Governance module not bought from Experian(Vendor they do more than just Aperture) (Aperture Data Studio) it is provided from Aletian 
+
+
+
+Meeting 10Aug/2026
+
+Kelvin: Do Aperture support custom Servicenow URL (We do have an API Gateway) ?
+Bulk Data Quality: S3, Snowflake, Athena, 
+https://docs.experianaperture.io/data-quality/aperture-data-studio/configuration/configure-external-systems/
+
+https://community.experianaperture.io/discussion/1334/connecting-to-the-servicenow-rest-api-using-oauth2
+
+Aletion jdbc driver to install
+
+
+3. In source: allow saving cost (like Snowflake with egress cost). We are not writing back to the source data.
+https://docs.experianaperture.io/data-quality/aperture-data-studio/extend-aperture-data-studio-functionality/pushdown-processing/
+
+4. API is exposed by the desktop applicaiotn (Encryption to be provided by Sean)
+https://docs.experianaperture.io/data-quality/aperture-data-studio/extend-aperture-data-studio-functionality/realtime-workflows/
+
+5. Create a rule set and make sure we using the same rule across data sets
+
+6. rulesets: https://docs.experianaperture.io/data-quality/aperture-data-studio/objects/rulesets/
+functions: https://docs.experianaperture.io/data-quality/aperture-data-studio/objects/functions/
+
+7. Logs there is a folder where the logs are stored C:\ApertureDataStudio\data\log (Sean to check with integration with ELK, Splunk)
+
+
+10 - 11 Alation / Aperture integration connection: https://community.experianaperture.io/discussion/1131/revalation-with-aperturedata-studio-alation-demo?utm_source=community-search&utm_medium=organic-search&utm_term=Connecting+to+Alation
+
+12. https://docs.experianaperture.io/data-quality/aperture-data-studio/find-duplicates-step/overview/
