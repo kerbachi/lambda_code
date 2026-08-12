@@ -81,6 +81,11 @@ Q: Any design for Alation integration (They have whitelisting? Encrypted)?
 Q: Text (US, EU) To verify with DPIA  @Boyle, Kenny  (Section 7.4)
 Q: Is there any development (SDLC Section)
 
+Bobby:
+Q: Existing Ec2 pattern (Deployment, Patching, security SG Role)?
+Q: Threat assessment needed?
+
+
 
 For Vendor:
 What type encryption  ?
