@@ -77,9 +77,9 @@ Can I have access to see the UI?
 Roles and associated AD groups?
 
 
-Q: Any design for Alation integration ?
+Q: Any design for Alation integration (They have whitelisting? Encrypted)?
 Q: Text (US, EU) To verify with DPIA  @Boyle, Kenny  (Section 7.4)
-
+Q: Is there any development (SDLC Section)
 
 
 For Vendor:
