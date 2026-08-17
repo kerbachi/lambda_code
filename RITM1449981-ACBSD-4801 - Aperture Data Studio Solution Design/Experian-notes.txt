@@ -79,12 +79,18 @@ Roles and associated AD groups?
 
 Q: Any design for Alation integration (They have whitelisting? Encrypted)?
 Q: Text (US, EU) To verify with DPIA  @Boyle, Kenny  (Section 7.4)
-Q: Is there any development (SDLC Section)
+Q: Is there any development (SDLC Section) -> Where we do deploy? Dev prod AWS?
 
 Bobby:
 Q: Existing Ec2 pattern (Deployment, Patching, security SG Role)?
 Q: Threat assessment needed?
+Q: CMDB ID to enter for Aperture Data Studio (SDLC)
+A: SDLC for environments to deploy to (Check CMDB)
 
+
+Integration diagram shows: TCP initiation, firewall, is encrypted Connection TLS 
+
+Data flow what data is flowing and in what direction
 
 
 For Vendor:
