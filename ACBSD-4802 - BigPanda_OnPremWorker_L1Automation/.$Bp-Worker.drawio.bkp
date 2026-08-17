@@ -4,8 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_Upip7Ik5iS9-XB_3Ash-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="BigPanda" vertex="1">
-          <mxGeometry height="213" width="140" x="620" y="130" as="geometry" />
+        <mxCell id="_Upip7Ik5iS9-XB_3Ash-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BigPanda" vertex="1">
+          <mxGeometry height="230" width="140" x="620" y="113" as="geometry" />
         </mxCell>
         <mxCell id="_Upip7Ik5iS9-XB_3Ash-3" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="UDC Vector/Graph DB" vertex="1">
           <mxGeometry height="80" width="80" x="650" y="250" as="geometry" />
@@ -43,8 +43,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="_Upip7Ik5iS9-XB_3Ash-6" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Q&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Onprem (Docker, EC2, size, type?)&lt;/li&gt;&lt;li&gt;Worker - BP (Enryption?)&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="250" x="30" y="20" as="geometry" />
+        </mxCell>
         <mxCell id="_Upip7Ik5iS9-XB_3Ash-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ServiceNow" vertex="1">
-          <mxGeometry height="100" width="140" x="-50" y="176" as="geometry" />
+          <mxGeometry height="100" width="260" x="-86" y="168" as="geometry" />
         </mxCell>
         <mxCell id="_Upip7Ik5iS9-XB_3Ash-9" edge="1" parent="1" source="9nAISeUQ65TPdHIKxyBV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.021;entryY=0.468;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" target="_Upip7Ik5iS9-XB_3Ash-1">
           <mxGeometry relative="1" as="geometry" />
@@ -62,7 +65,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9nAISeUQ65TPdHIKxyBV-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API Gateway" vertex="1">
-          <mxGeometry height="80" width="60" x="340" y="189" as="geometry" />
+          <mxGeometry height="80" width="60" x="340" y="180" as="geometry" />
         </mxCell>
         <mxCell id="9nAISeUQ65TPdHIKxyBV-9" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" value="&lt;span style=&quot;white-space: normal;&quot;&gt;EC2&lt;br&gt;BigPanda&lt;/span&gt;&lt;br style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;OnPremWorker&lt;/span&gt;" vertex="1">
           <mxGeometry height="53" width="50" x="370" y="413.5" as="geometry" />
