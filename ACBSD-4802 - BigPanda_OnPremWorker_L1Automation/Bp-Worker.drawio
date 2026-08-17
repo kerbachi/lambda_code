@@ -1,0 +1,34 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="TtdAH0ywm-lSJo_SMJtb">
+    <mxGraphModel dx="694" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_Upip7Ik5iS9-XB_3Ash-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BigPanda" vertex="1">
+          <mxGeometry height="300" width="140" x="500" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_Upip7Ik5iS9-XB_3Ash-3" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="UDC Vector/Graph DB" vertex="1">
+          <mxGeometry height="80" width="80" x="530" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="_Upip7Ik5iS9-XB_3Ash-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="AWS Aegon" vertex="1">
+          <mxGeometry height="160" width="390" x="80" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="_Upip7Ik5iS9-XB_3Ash-7" edge="1" parent="1" source="_Upip7Ik5iS9-XB_3Ash-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_Upip7Ik5iS9-XB_3Ash-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Upip7Ik5iS9-XB_3Ash-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BigPanda&lt;br&gt;OnPremWorker" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="_Upip7Ik5iS9-XB_3Ash-6" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Q&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Onprem (Docker, EC2, size, type?)&lt;/li&gt;&lt;li&gt;License?&lt;/li&gt;&lt;li&gt;Worker - BP (Enryption?)&lt;/li&gt;&lt;li&gt;AppDynamics in scope?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="250" x="30" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_Upip7Ik5iS9-XB_3Ash-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SNOW" vertex="1">
+          <mxGeometry height="100" width="260" x="150" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="_Upip7Ik5iS9-XB_3Ash-9" edge="1" parent="1" source="_Upip7Ik5iS9-XB_3Ash-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.021;entryY=0.468;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" target="_Upip7Ik5iS9-XB_3Ash-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

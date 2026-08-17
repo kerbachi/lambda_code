@@ -1,3 +1,0 @@
-OnPrem worker:
- check on a schedule if there is any incident on Bigpanda and suggest an action plan
-Runbook are disabled
