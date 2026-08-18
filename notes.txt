@@ -2,3 +2,5 @@
 RITM1390706-ACBSD-4686 - Bedrock Knowledge Base   / presented 5/5/2026
 
 RITM1319057-ACBSD-4541-AWS Transform Component Standard / presented 4/4/2026
+
+ACBSD-4800 - Boundary Policy for kafka-cluster   / presented 8/13/2026
